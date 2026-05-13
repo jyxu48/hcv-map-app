@@ -1,0 +1,622 @@
+{
+  "sections": [
+    {
+      "id": "affordable-housing-projects",
+      "title": "Affordable Housing Projects",
+      "items": [
+        {
+          "indicator_id": "hcv_25",
+          "label": "Housing Choice Vouchers (HUD, 2025)",
+          "definition": "Number of Housing Choice Voucher (HCV) Program is the federal government\u2019s major program for providing housing assistance to over 2.3 million American families.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        }
+      ]
+    },
+    {
+      "id": "racially-or-ethnically-concentrated-areas",
+      "title": "Racially or Ethnically Concentrated Areas",
+      "items": [
+        {
+          "indicator_id": "recap",
+          "label": "Racially or Ethnically Concentrated Areas of Poverty (R/ECAPs) (2020-2024)",
+          "definition": "Neighborhoods where racial/ethnic concentration and deep poverty overlap.\nDefinition: In the HUD AFFH context, an R/ECAP is generally a census tract with a non-White population share of at least 50%, and a poverty rate of at least 40% or three times the CBSA-area tract average poverty rate, whichever threshold is lower.",
+          "level": "Census Tract",
+          "source_dataset": "ACS 2020\u20132024",
+          "source_link": "https://www.huduser.gov/portal/periodicals/cityscpe/vol21num1/ch4.pdf",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "rcaa",
+          "label": "Racially Concentrated Areas of Affluence (RCAAs) (2020-2024)",
+          "definition": "RCAAa neighborhood at the opposite end of the segregation continuum from R/ECAP, representing the spatial concentration of whiteness and affluence. It refers to advantaged neighborhoods where racial concentration and high income overlap.\nDefinition: A census tract with at least 80% White residents and median household income at or above two times the national median household income in the reference year.",
+          "level": "Census Tract",
+          "source_dataset": "ACS 2020-2024",
+          "source_link": "https://www.huduser.gov/portal/periodicals/cityscpe/vol21num1/ch4.pdf",
+          "variable_type": null
+        }
+      ]
+    },
+    {
+      "id": "disparities-in-access-to-opportunities",
+      "title": "Disparities in Access to Opportunities",
+      "items": [
+        {
+          "indicator_id": "coi_idx",
+          "label": "Child Opportunity Index (COI3.0)-Child Opportunity Index (DDK, 2023)",
+          "definition": "Nationally normed Child Opportunity Scores (from 1 to 100) for the Child Opportunity Index",
+          "level": "Census Tract",
+          "source_dataset": "Child Opportunity Index (COI3.0)-Child Opportunity Index (DDK, 2023)",
+          "source_link": "https://www.diversitydatakids.org/research-library/child-opportunity-index/child-opportunity-index-30-2023-census-tract-data",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "coi_edu",
+          "label": "Child Opportunity Index (COI3.0)-education domain (DDK, 2023)",
+          "definition": "Nationally normed Child Opportunity Scores (from 1 to 100) for the education domain",
+          "level": "Census Tract",
+          "source_dataset": "Child Opportunity Index (COI3.0)-Child Opportunity Index (DDK, 2023)",
+          "source_link": "https://www.diversitydatakids.org/research-library/child-opportunity-index/child-opportunity-index-30-2023-census-tract-data",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "coi_health_env",
+          "label": "Child Opportunity Index (COI3.0)-health and environment domain (DDK, 2023)",
+          "definition": "Nationally normed Child Opportunity Scores (from 1 to 100) for the health and environment domain",
+          "level": "Census Tract",
+          "source_dataset": "Child Opportunity Index (COI3.0)-Child Opportunity Index (DDK, 2023)",
+          "source_link": "https://www.diversitydatakids.org/research-library/child-opportunity-index/child-opportunity-index-30-2023-census-tract-data",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "coi_soc_eco",
+          "label": "Child Opportunity Index (COI3.0)-social and economic domain (DDK, 2023)",
+          "definition": "Nationally normed Child Opportunity Scores (from 1 to 100) for the social and economic domain",
+          "level": "Census Tract",
+          "source_dataset": "Child Opportunity Index (COI3.0)-Child Opportunity Index (DDK, 2023)",
+          "source_link": "https://www.diversitydatakids.org/research-library/child-opportunity-index/child-opportunity-index-30-2023-census-tract-data",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "haz_idx",
+          "label": "Environmental health index (AFFHT0007, 2024)",
+          "definition": "The environmental health index summarizes potential exposure to harmful toxins at a neighborhood\nlevel. Values are inverted and then percentile ranked nationally. Values range from 0 to 100. The higher the\nindex value, the less exposure to toxins harmful to human health. Therefore, the higher the value, the\nbetter the environmental quality of a neighborhood, where a neighborhood is a census tract.",
+          "level": "Census Tract",
+          "source_dataset": "AFFHT0007, (HUD, 2024)-\nEPA 2019 with 2020 GEO Codes",
+          "source_link": "https://datacatalog.urban.org/dataset/us-department-housing-and-urban-development-affirmatively-furthering-fair-housing-hud-affh",
+          "variable_type": null
+        }
+      ]
+    },
+    {
+      "id": "socioeconomic-demographic",
+      "title": "Socioeconomic & Demographic",
+      "items": [
+        {
+          "indicator_id": "median_household_income",
+          "label": "Median Household Income-Tract (ACS, 2020-2024)",
+          "definition": "Median income of households over the past 12 months.",
+          "level": "Census Tract",
+          "source_dataset": "ACS (2020\u20132024)",
+          "source_link": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "poverty_rate",
+          "label": "Poverty Rate (ACS, 2020\u20132024)",
+          "definition": "Share of individuals with income below the federal poverty threshold.",
+          "level": "Census Tract",
+          "source_dataset": "ACS (2020\u20132024)",
+          "source_link": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "unemployment_rate",
+          "label": "Unemployment Rate (ACS, 2020\u20132024)",
+          "definition": "Share of the labor force that is unemployed.",
+          "level": "Census Tract",
+          "source_dataset": "ACS (2020\u20132024)",
+          "source_link": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "labor_force_participation_rate",
+          "label": "Labor Force Participation Rate (ACS, 2020\u20132024)",
+          "definition": "Share of population aged 16+ in the labor force.",
+          "level": "Census Tract",
+          "source_dataset": "ACS (2020\u20132024)",
+          "source_link": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "bachelors_degree_or_higher_pct",
+          "label": "Educational Attainment: Bachelor's Degree or Higher (%) (ACS, 2020\u20132024)",
+          "definition": "Share of population aged 25+ with a bachelor\u2019s degree or higher.",
+          "level": "Census Tract",
+          "source_dataset": "ACS (2020\u20132024)",
+          "source_link": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "average_household_size",
+          "label": "Average Household Size (ACS, 2020\u20132024)",
+          "definition": "Average number of persons per household.",
+          "level": "Census Tract",
+          "source_dataset": "ACS (2020\u20132024)",
+          "source_link": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "single_parent_households_pct",
+          "label": "Single-Parent Households (%) (ACS, 2020\u20132024)",
+          "definition": "Share of family households headed by a single parent.",
+          "level": "Census Tract",
+          "source_dataset": "ACS (2020\u20132024)",
+          "source_link": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "population_age_65_plus_pct",
+          "label": "Population Age 65+ (%) (ACS, 2020\u20132024)",
+          "definition": "Share of population aged 65 and over.",
+          "level": "Census Tract",
+          "source_dataset": "ACS (2020\u20132024)",
+          "source_link": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "minority_share_pct",
+          "label": "Minority Share (ACS, 2020\u20132024)",
+          "definition": "Share of population that is not Non-Hispanic White, consistent with HUD definitions of minority concentration.",
+          "level": "Census Tract",
+          "source_dataset": "ACS (2020\u20132024)",
+          "source_link": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+          "variable_type": null
+        }
+      ]
+    },
+    {
+      "id": "housing-rent-conditions",
+      "title": "Housing & Rent Conditions",
+      "items": [
+        {
+          "indicator_id": "median_gross_rent",
+          "label": "Median Gross Rent (ACS, 2020\u20132024)",
+          "definition": "Median monthly housing cost for renter-occupied units, including utilities.",
+          "level": "Census Tract",
+          "source_dataset": "ACS (2020\u20132024)",
+          "source_link": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "rent_burdened_households_pct_30_plus",
+          "label": "Rent Burdened Households (%) (ACS, 2020\u20132024)",
+          "definition": "Share of renter households spending more than 30% of income on rent.",
+          "level": "Census Tract",
+          "source_dataset": "ACS (2020\u20132024)",
+          "source_link": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "severely_rent_burdened_pct_50_plus",
+          "label": "Severely Rent Burdened Households (%) (ACS, 2020\u20132024)",
+          "definition": "Share of renter households spending more than 50% of income on rent.",
+          "level": "Census Tract",
+          "source_dataset": "ACS (2020\u20132024)",
+          "source_link": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "average_household_size",
+          "label": "Average Household Size (ACS, 2020\u20132024)",
+          "definition": "Average Household Size",
+          "level": "Census Tract",
+          "source_dataset": "ACS (2020\u20132024)",
+          "source_link": "https://www.census.gov/data/developers/data-sets/acs-6year.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "aqv_30",
+          "label": "Number of Affordable, Qualified and Vacant Units for Rent-30%HAMFI (HUD CHAS Data, ACS2018-2022)",
+          "definition": "Vacant-for-rent, housing unit has complete kitchen and plumbing facilities, rent <= RHUD30 (T14B_est4)",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022)",
+          "source_link": "https://www.huduser.gov/portal/datasets/cp.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "aqv_50",
+          "label": "Number of Affordable, Qualified and Vacant Units for Rent-50%HAMFI (HUD CHAS Data, ACS2018-2022)",
+          "definition": "Vacant-for-rent, housing unit has complete kitchen and plumbing facilities, rent <= RHUD50 (T14B_est4+T14B_est8)",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022)",
+          "source_link": "https://www.huduser.gov/portal/datasets/cp.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "aqv_80",
+          "label": "Number of Affordable, Qualified and Vacant Units for Rent-80%HAMFI (HUD CHAS Data, ACS2018-2022)",
+          "definition": "Vacant-for-rent, housing unit has complete kitchen and plumbing facilities, rent <= RHUD80 (T14B_est4+T14B_est8+T14B_est12)",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022)",
+          "source_link": "https://www.huduser.gov/portal/datasets/cp.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "aqv_100",
+          "label": "Number of Affordable, Qualified and Vacant Units for Rent-100%HAMFI (HUD CHAS Data, ACS2018-2022)",
+          "definition": "Not directly available from published CHAS Table 14B; RHUD80-RHUD100 is not isolated because the source only publishes a combined >RHUD80 bucket",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022)",
+          "source_link": "https://www.huduser.gov/portal/datasets/cp.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "aqv_all",
+          "label": "Number of Affordable, Qualified and Vacant Units for Rent-All Income Bands (HUD CHAS Data, ACS2018-2022)",
+          "definition": "Vacant-for-rent, housing unit has complete kitchen and plumbing facilities, all rent levels (T14B_est3)",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022)",
+          "source_link": "https://www.huduser.gov/portal/datasets/cp.html",
+          "variable_type": null
+        }
+      ]
+    },
+    {
+      "id": "spatial-mismatch",
+      "title": "Spatial Mismatch",
+      "items": [
+        {
+          "indicator_id": "pvn_30",
+          "label": "Income-based Potential Voucher Need-30%HAMFI (HUD CHAS Data, ACS2018-2022)",
+          "definition": "renter occupied and renter household income less than or equal to 30% of HAMFI-All cost burden (T8_est69)",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022)",
+          "source_link": "https://www.huduser.gov/portal/datasets/cp.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "pvn_50",
+          "label": "Income-based Potential Voucher Need-50%HAMFI (HUD CHAS Data, ACS2018-2022)",
+          "definition": "renter occupied and renter household income less than or equal to 50% of HAMFI-All cost burden (T8_est69 + T8_est82)",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022)",
+          "source_link": "https://www.huduser.gov/portal/datasets/cp.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "pvn_80",
+          "label": "Income-based Potential Voucher Need-80%HAMFI (HUD CHAS Data, ACS2018-2022)",
+          "definition": "renter occupied and renter household income less than or equal to 80% of HAMFI-All cost burden (T8_est69 + T8_est82 + T8_est95)",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022)",
+          "source_link": "https://www.huduser.gov/portal/datasets/cp.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "pvn_100",
+          "label": "Income-based Potential Voucher Need-100%HAMFI (HUD CHAS Data, ACS2018-2022)",
+          "definition": "renter occupied and renter household income less than or equal to 100% of HAMFI-All cost burden (T8_est69 + T8_est82 + T8_est95 + T8_est108)",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022)",
+          "source_link": "https://www.huduser.gov/portal/datasets/cp.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "pvn_all",
+          "label": "Income-based Potential Voucher Need-All Income Bands (HUD CHAS Data, ACS2018-2022)",
+          "definition": "renter occupied-all household income groups-All cost burden (T8_est68)",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022)",
+          "source_link": "https://www.huduser.gov/portal/datasets/cp.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "vng_30",
+          "label": "Income-based Voucher Need Gap -30%HAMFI",
+          "definition": "Difference between income-based potential voucher need at 30% of HAMFI and existing HCV households in the tract (pvn_30 - hcv_occupied)",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "N/A",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "vng_50",
+          "label": "Income-based Voucher Need Gap -50%HAMFI",
+          "definition": "Difference between income-based potential voucher need at 50% of HAMFI and existing HCV households in the tract (pvn_50 - hcv_occupied)",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "N/A",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "vng_80",
+          "label": "Income-based Voucher Need Gap -80%HAMFI",
+          "definition": "Difference between income-based potential voucher need at 80% of HAMFI and existing HCV households in the tract (pvn_80 - hcv_occupied)",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "N/A",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "vng_100",
+          "label": "Income-based Voucher Need Gap -100%HAMFI",
+          "definition": "Difference between income-based potential voucher need at 100% of HAMFI and existing HCV households in the tract (pvn_100 - hcv_occupied)",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "N/A",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "vng_all",
+          "label": "Income-based Voucher Need Gap -All Income Bands",
+          "definition": "Difference between income-based potential voucher need across all income bands and existing HCV households in the tract (pvn_all - hcv_occupied)",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "N/A",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "em_30",
+          "label": "Eligibility Mismatch-30%HAMFI",
+          "definition": "Difference between the remaining income-based voucher need gap at 30% of HAMFI and the number of affordable, qualified, and vacant rental units at the same affordability level (vng_30 - aqv_30)",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "N/A",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "em_50",
+          "label": "Eligibility Mismatch-50%HAMFI",
+          "definition": "Difference between the remaining income-based voucher need gap at 50% of HAMFI and the number of affordable, qualified, and vacant rental units at the same affordability level (vng_50 - aqv_50)",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "N/A",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "em_80",
+          "label": "Eligibility Mismatch-80%HAMFI",
+          "definition": "Difference between the remaining income-based voucher need gap at 80% of HAMFI and the number of affordable, qualified, and vacant rental units at the same affordability level (vng_80 - aqv_80)",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "N/A",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "em_100",
+          "label": "Eligibility Mismatch-100%HAMFI",
+          "definition": "Not directly computable from published CHAS Table 14B because aqv_100 is not isolated",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "N/A",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "em_all",
+          "label": "Eligibility Mismatch-All Income Bands",
+          "definition": "Difference between the remaining income-based voucher need gap across all income bands and the number of affordable, qualified, and vacant rental units across all rent levels (vng_all - aqv_all)",
+          "level": "Census Tract",
+          "source_dataset": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "N/A",
+          "variable_type": null
+        }
+      ]
+    },
+    {
+      "id": "housing-choice-voucher-users",
+      "title": "Housing Choice Voucher Users",
+      "items": [
+        {
+          "indicator_id": "hcv_occupied",
+          "label": "Housing Choice Vouchers Occupied Units(HUD, 2025)",
+          "definition": "Number of occupied units under contract for federal subsidy.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_pct_occupied",
+          "label": "Housing Choice Vouchers Percent Occupied (HUD, 2025)",
+          "definition": "Occupied units as the % of units available.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_reported",
+          "label": "Housing Choice Vouchers Reported Count (HUD, 2025)",
+          "definition": "Number of households for which reports (Form-50058",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_pct_reported",
+          "label": "Housing Choice Vouchers Percent Reported (HUD, 2025)",
+          "definition": "Households for which reports were received",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_months_since_report",
+          "label": "Housing Choice Vouchers Months Since Report (HUD, 2025)",
+          "definition": "Average number of months between the household submissions and the date of the Picture snapshot.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_pct_movein",
+          "label": "Housing Choice Vouchers Percent Moved In Past Year (HUD, 2025)",
+          "definition": "Percentage of households who were in the program less than a year from the date of Picture snapshot.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_people_per_unit",
+          "label": "Housing Choice Vouchers People per Unit (HUD, 2025)",
+          "definition": "Average size of household.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_people_total",
+          "label": "Housing Choice Vouchers People Total (HUD, 2025)",
+          "definition": "Total number of people.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_rent_per_month",
+          "label": "Housing Choice Vouchers Rent per Month (HUD, 2025)",
+          "definition": "Average gross household contribution towards rent per month includes payment toward rent and utilities and excludes zero values and missing values.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_spending_per_month",
+          "label": "Housing Choice Vouchers Spending per Month (HUD, 2025)",
+          "definition": "Average federal spending per unit-month.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_hh_income",
+          "label": "Housing Choice Vouchers Household Income (HUD, 2025)",
+          "definition": "Average total household income per year.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_person_income",
+          "label": "Housing Choice Vouchers Person Income (HUD, 2025)",
+          "definition": "Average household income per person per year.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_pct_lt80_median",
+          "label": "Housing Choice Vouchers Share Below 80 Percent Median (HUD, 2025)",
+          "definition": "Percentage of households with income below 80% of local area median family income.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_pct_lt50_median",
+          "label": "Housing Choice Vouchers Share Below 50 Percent Median (HUD, 2025)",
+          "definition": "Percentage of households with income below 50% of local area median family income",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_pct_lt30_median",
+          "label": "Housing Choice Vouchers Share Below 30 Percent Median (HUD, 2025)",
+          "definition": "Percentage of households with income below 30% of local area median family income",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_months_waiting",
+          "label": "Housing Choice Vouchers Months Waiting (HUD, 2025)",
+          "definition": "Average months on waiting list using the date entered waiting list and the new admission date. Excludes programs that do not report waiting list dates.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_months_from_movein",
+          "label": "Housing Choice Vouchers Months From Move-In (HUD, 2025)",
+          "definition": "Average months since households moved in as difference between the admission date and date of Picture snapshot. Excludes zero values.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_pct_utility_allow",
+          "label": "Housing Choice Vouchers Utility Allowance Share (HUD, 2025)",
+          "definition": "Percentage of households that receive a non-zero utility allowance payment.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_ave_util_allow",
+          "label": "Housing Choice Vouchers Average Utility Allowance (HUD, 2025)",
+          "definition": "Average utility allowance among households who have it in dollars per month. This is an estimate of the utilities that the household pays to the utility company. Utility allowances are zero if all utilities are included in the rent. Excludes zero values.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_pct_bed1",
+          "label": "Housing Choice Vouchers Bedroom 1 Share (HUD, 2025)",
+          "definition": "Percent of households with 0-1 bedroom units efficiencies and one bedroom.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_pct_bed2",
+          "label": "Housing Choice Vouchers Bedroom 2 Share (HUD, 2025)",
+          "definition": "Percent of households with 2 bedroom units.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_pct_bed3",
+          "label": "Housing Choice Vouchers Bedroom 3 Share (HUD, 2025)",
+          "definition": "Percent of households with 3 or more bedroom units.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        },
+        {
+          "indicator_id": "hcv_pct_overhoused",
+          "label": "Housing Choice Vouchers Overhoused Share (HUD, 2025)",
+          "definition": "Percent overhoused households with more bedrooms than people.",
+          "level": "Census Tract",
+          "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+          "source_link": "https://www.huduser.gov/portal/datasets/assthsg.html",
+          "variable_type": null
+        }
+      ]
+    }
+  ]
+}

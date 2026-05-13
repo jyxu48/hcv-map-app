@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Housing Choice Voucher &amp; Neighborhood Data Explorer</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"
+    />
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <div class="workspace-shell">
+        <main class="map-column">
+          <div id="map"></div>
+
+          <div class="map-overlay dataset-overlay">
+            <div id="active-indicator-card" class="summary-card muted dataset-banner-card">
+              Select a dataset to see its definition, source, and year.
+            </div>
+          </div>
+
+          <div class="map-overlay legend-overlay">
+            <div class="legend-shell">
+              <div id="legend" class="legend"></div>
+            </div>
+          </div>
+        </main>
+
+        <aside class="panel panel-right">
+          <div class="panel-section panel-section-modes">
+            <div class="mode-identity">
+              <img
+                class="mode-identity-logo"
+                src="../hip-logo-new-artboard-4.png"
+                alt="Housing Initiative at Penn logo"
+              />
+              <p class="mode-identity-label">Housing Initiative at Penn</p>
+            </div>
+            <div class="panel-mode-stack">
+              <div class="mode-card mode-card-primary mode-button-cluster">
+                <div id="geography-level-toggle" class="mode-segmented" role="tablist" aria-label="Geography level">
+                  <button
+                    id="geography-level-tract-button"
+                    class="mode-segmented-button"
+                    data-level="tract"
+                    type="button"
+                    role="tab"
+                    aria-selected="true"
+                  >
+                    Tract
+                  </button>
+                  <button
+                    id="geography-level-cbsa-button"
+                    class="mode-segmented-button"
+                    data-level="cbsa"
+                    type="button"
+                    role="tab"
+                    aria-selected="false"
+                  >
+                    CBSA summary
+                  </button>
+                </div>
+                <button id="cbsa-mode-button" class="mode-button" type="button" disabled>
+                  Focus on selected tract's CBSA
+                </button>
+                <p id="geography-level-note" class="panel-copy compact-copy mode-card-note">
+                  Showing tract-level data and boundaries.
+                </p>
+                <p id="cbsa-mode-note" class="panel-copy compact-copy mode-card-note" hidden>
+                  Select a tract to enable CBSA mode.
+                </p>
+              </div>
+
+              <select id="classification-select" class="visually-hidden" tabindex="-1" aria-hidden="true">
+                <option value="fixed">Fixed breaks</option>
+                <option value="quantile">Quantile</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="panel-section">
+            <h2 id="selected-geo-heading">Selected geography</h2>
+            <div id="tract-details" class="summary-card muted">
+              Click a tract to inspect its values, labels, and CBSA comparison.
+            </div>
+            <div class="geo-tools">
+              <div class="overlay-control">
+                <div class="overlay-control-header">
+                  <span class="overlay-control-title">HCV overlay</span>
+                  <label class="overlay-toggle-label">
+                    <input id="hcv-overlay-toggle" type="checkbox" />
+                    <span>Show</span>
+                  </label>
+                </div>
+                <select id="hcv-overlay-select" class="overlay-control-select"></select>
+                <p id="hcv-overlay-note" class="panel-copy compact-copy mode-card-note">
+                  Overlay tract-level HCV dots on top of the current dataset.
+                </p>
+              </div>
+
+              <div class="mode-tools-row">
+                <div class="mode-inline-toggle">
+                  <label class="mode-check-chip">
+                    <input id="borders-toggle" type="checkbox" />
+                    <span>Borders</span>
+                  </label>
+                </div>
+                <div class="classification-toggle" role="group" aria-label="Classification">
+                  <button id="classification-fixed-button" class="classification-chip" data-value="fixed" type="button">
+                    Fixed
+                  </button>
+                  <button id="classification-quantile-button" class="classification-chip" data-value="quantile" type="button">
+                    Quantile
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel-section panel-section-compact">
+            <h2>Datasets</h2>
+            <p class="panel-copy compact-copy">
+              Open a category, then choose the indicator you want to map.
+            </p>
+            <div id="dataset-browser" class="dataset-browser"></div>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>

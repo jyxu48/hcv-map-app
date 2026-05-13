@@ -1,0 +1,2604 @@
+{
+  "default_indicator": "coi_idx",
+  "default_classification": "fixed",
+  "indicator_groups": [
+    "Affordable Housing Projects",
+    "Disparities in Access to Opportunities",
+    "Housing & Rent Conditions",
+    "Housing Choice Voucher Users",
+    "Racially or Ethnically Concentrated Areas",
+    "Socioeconomic & Demographic",
+    "Spatial Mismatch"
+  ],
+  "indicators": [
+    {
+      "id": "hcv_25",
+      "label": "Housing Choice Vouchers (HUD, 2025)",
+      "group": "Affordable Housing Projects",
+      "description": "Number of Housing Choice Voucher (HCV) Program is the federal government\u2019s major program for providing housing assistance to over 2.3 million American families.",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_25",
+      "stats": {
+        "valid_count": 70105,
+        "min": 0.0,
+        "max": 2511.0,
+        "mean": 38.91070537051566,
+        "median": 15.0
+      },
+      "breaks": {
+        "fixed": [
+          502.2,
+          1004.4,
+          1506.6,
+          2008.8
+        ],
+        "quantile": [
+          3.0,
+          10.0,
+          24.0,
+          59.0
+        ]
+      }
+    },
+    {
+      "id": "recap",
+      "label": "Racially or Ethnically Concentrated Areas of Poverty (R/ECAPs) (2020-2024)",
+      "group": "Racially or Ethnically Concentrated Areas",
+      "description": "Neighborhoods where racial/ethnic concentration and deep poverty overlap.\nDefinition: In the HUD AFFH context, an R/ECAP is generally a census tract with a non-White population share of at least 50%, and a poverty rate of at least 40% or three times the CBSA-area tract average poverty rate, whichever threshold is lower.",
+      "unit": "binary",
+      "value_type": "binary",
+      "palette": "categorical_binary",
+      "default_classification": "binary",
+      "year_label": "ACS 2020\u20132024",
+      "palette_colors": [
+        "#e2e8f0",
+        "#1d4f82"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "recap",
+      "stats": {
+        "valid_count": 76658,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.031086122779096767,
+        "median": 0.0
+      },
+      "breaks": {
+        "fixed": [],
+        "quantile": [
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "rcaa",
+      "label": "Racially Concentrated Areas of Affluence (RCAAs) (2020-2024)",
+      "group": "Racially or Ethnically Concentrated Areas",
+      "description": "RCAAa neighborhood at the opposite end of the segregation continuum from R/ECAP, representing the spatial concentration of whiteness and affluence. It refers to advantaged neighborhoods where racial concentration and high income overlap.\nDefinition: A census tract with at least 80% White residents and median household income at or above two times the national median household income in the reference year.",
+      "unit": "binary",
+      "value_type": "binary",
+      "palette": "categorical_binary",
+      "default_classification": "binary",
+      "year_label": "ACS 2020-2024",
+      "palette_colors": [
+        "#e2e8f0",
+        "#1d4f82"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "rcaa",
+      "stats": {
+        "valid_count": 83841,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.015827578392433296,
+        "median": 0.0
+      },
+      "breaks": {
+        "fixed": [],
+        "quantile": [
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "coi_idx",
+      "label": "Child Opportunity Index (COI3.0)-Child Opportunity Index (DDK, 2023)",
+      "group": "Disparities in Access to Opportunities",
+      "description": "Nationally normed Child Opportunity Scores (from 1 to 100) for the Child Opportunity Index",
+      "unit": "index",
+      "value_type": "index",
+      "palette": "sequential_blue",
+      "default_classification": "fixed",
+      "year_label": "Child Opportunity Index (COI3.0)-Child Opportunity Index (DDK, 2023)",
+      "palette_colors": [
+        "#dbe9f5",
+        "#b9d3e7",
+        "#82afcd",
+        "#4f82a8",
+        "#1d4f82"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "coi_idx",
+      "stats": {
+        "valid_count": 83857,
+        "min": 1.0,
+        "max": 100.0,
+        "mean": 49.99470527207031,
+        "median": 50.0
+      },
+      "breaks": {
+        "fixed": [
+          20.0,
+          40.0,
+          60.0,
+          80.0
+        ],
+        "quantile": [
+          21.0,
+          40.0,
+          59.0,
+          79.0
+        ]
+      }
+    },
+    {
+      "id": "coi_edu",
+      "label": "Child Opportunity Index (COI3.0)-education domain (DDK, 2023)",
+      "group": "Disparities in Access to Opportunities",
+      "description": "Nationally normed Child Opportunity Scores (from 1 to 100) for the education domain",
+      "unit": "index",
+      "value_type": "index",
+      "palette": "sequential_blue",
+      "default_classification": "fixed",
+      "year_label": "Child Opportunity Index (COI3.0)-Child Opportunity Index (DDK, 2023)",
+      "palette_colors": [
+        "#dbe9f5",
+        "#b9d3e7",
+        "#82afcd",
+        "#4f82a8",
+        "#1d4f82"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "coi_edu",
+      "stats": {
+        "valid_count": 83847,
+        "min": 1.0,
+        "max": 100.0,
+        "mean": 50.12304554724677,
+        "median": 50.0
+      },
+      "breaks": {
+        "fixed": [
+          20.0,
+          40.0,
+          60.0,
+          80.0
+        ],
+        "quantile": [
+          21.0,
+          40.0,
+          60.0,
+          79.0
+        ]
+      }
+    },
+    {
+      "id": "coi_health_env",
+      "label": "Child Opportunity Index (COI3.0)-health and environment domain (DDK, 2023)",
+      "group": "Disparities in Access to Opportunities",
+      "description": "Nationally normed Child Opportunity Scores (from 1 to 100) for the health and environment domain",
+      "unit": "index",
+      "value_type": "index",
+      "palette": "sequential_blue",
+      "default_classification": "fixed",
+      "year_label": "Child Opportunity Index (COI3.0)-Child Opportunity Index (DDK, 2023)",
+      "palette_colors": [
+        "#dbe9f5",
+        "#b9d3e7",
+        "#82afcd",
+        "#4f82a8",
+        "#1d4f82"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "coi_health_env",
+      "stats": {
+        "valid_count": 83865,
+        "min": 1.0,
+        "max": 100.0,
+        "mean": 49.97841769510523,
+        "median": 50.0
+      },
+      "breaks": {
+        "fixed": [
+          20.0,
+          40.0,
+          60.0,
+          80.0
+        ],
+        "quantile": [
+          18.0,
+          39.0,
+          60.0,
+          81.0
+        ]
+      }
+    },
+    {
+      "id": "coi_soc_eco",
+      "label": "Child Opportunity Index (COI3.0)-social and economic domain (DDK, 2023)",
+      "group": "Disparities in Access to Opportunities",
+      "description": "Nationally normed Child Opportunity Scores (from 1 to 100) for the social and economic domain",
+      "unit": "index",
+      "value_type": "index",
+      "palette": "sequential_blue",
+      "default_classification": "fixed",
+      "year_label": "Child Opportunity Index (COI3.0)-Child Opportunity Index (DDK, 2023)",
+      "palette_colors": [
+        "#dbe9f5",
+        "#b9d3e7",
+        "#82afcd",
+        "#4f82a8",
+        "#1d4f82"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "coi_soc_eco",
+      "stats": {
+        "valid_count": 83438,
+        "min": 1.0,
+        "max": 100.0,
+        "mean": 50.00079100649584,
+        "median": 50.0
+      },
+      "breaks": {
+        "fixed": [
+          20.0,
+          40.0,
+          60.0,
+          80.0
+        ],
+        "quantile": [
+          20.0,
+          40.0,
+          59.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "haz_idx",
+      "label": "Environmental health index (AFFHT0007, 2024)",
+      "group": "Disparities in Access to Opportunities",
+      "description": "The environmental health index summarizes potential exposure to harmful toxins at a neighborhood\nlevel. Values are inverted and then percentile ranked nationally. Values range from 0 to 100. The higher the\nindex value, the less exposure to toxins harmful to human health. Therefore, the higher the value, the\nbetter the environmental quality of a neighborhood, where a neighborhood is a census tract.",
+      "unit": "index",
+      "value_type": "index",
+      "palette": "sequential_blue",
+      "default_classification": "fixed",
+      "year_label": "AFFHT0007, (HUD, 2024)-\nEPA 2019 with 2020 GEO Codes",
+      "palette_colors": [
+        "#dbe9f5",
+        "#b9d3e7",
+        "#82afcd",
+        "#4f82a8",
+        "#1d4f82"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "haz_idx",
+      "stats": {
+        "valid_count": 84901,
+        "min": 0.0,
+        "max": 99.0,
+        "mean": 49.55099468793065,
+        "median": 49.0
+      },
+      "breaks": {
+        "fixed": [
+          20.0,
+          40.0,
+          60.0,
+          80.0
+        ],
+        "quantile": [
+          22.0,
+          39.0,
+          62.0,
+          79.0
+        ]
+      }
+    },
+    {
+      "id": "median_household_income",
+      "label": "Median Household Income-Tract (ACS, 2020-2024)",
+      "group": "Socioeconomic & Demographic",
+      "description": "Median income of households over the past 12 months.",
+      "unit": "USD",
+      "value_type": "currency",
+      "palette": "sequential_green",
+      "default_classification": "quantile",
+      "year_label": "ACS (2020\u20132024)",
+      "palette_colors": [
+        "#e0eee4",
+        "#bbd5c2",
+        "#84af93",
+        "#4f8462",
+        "#24593d"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "median_household_income",
+      "stats": {
+        "valid_count": 83841,
+        "min": 2499.0,
+        "max": 250001.0,
+        "mean": 85729.24477284384,
+        "median": 77011.0
+      },
+      "breaks": {
+        "fixed": [
+          51999.4,
+          101499.8,
+          151000.2,
+          200500.6
+        ],
+        "quantile": [
+          53125.0,
+          69063.0,
+          86061.0,
+          113342.0
+        ]
+      }
+    },
+    {
+      "id": "poverty_rate",
+      "label": "Poverty Rate (ACS, 2020\u20132024)",
+      "group": "Socioeconomic & Demographic",
+      "description": "Share of individuals with income below the federal poverty threshold.",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "ACS (2020\u20132024)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "poverty_rate",
+      "stats": {
+        "valid_count": 84352,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.1388828474685414,
+        "median": 0.10699658369117905
+      },
+      "breaks": {
+        "fixed": [
+          0.2,
+          0.4,
+          0.6,
+          0.8
+        ],
+        "quantile": [
+          0.050063,
+          0.085856,
+          0.131821,
+          0.208418
+        ]
+      }
+    },
+    {
+      "id": "unemployment_rate",
+      "label": "Unemployment Rate (ACS, 2020\u20132024)",
+      "group": "Socioeconomic & Demographic",
+      "description": "Share of the labor force that is unemployed.",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "ACS (2020\u20132024)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "unemployment_rate",
+      "stats": {
+        "valid_count": 84389,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.055935233740958615,
+        "median": 0.0446265938069216
+      },
+      "breaks": {
+        "fixed": [
+          0.2,
+          0.4,
+          0.6,
+          0.8
+        ],
+        "quantile": [
+          0.021169,
+          0.036351,
+          0.054237,
+          0.082595
+        ]
+      }
+    },
+    {
+      "id": "labor_force_participation_rate",
+      "label": "Labor Force Participation Rate (ACS, 2020\u20132024)",
+      "group": "Socioeconomic & Demographic",
+      "description": "Share of population aged 16+ in the labor force.",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "ACS (2020\u20132024)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "labor_force_participation_rate",
+      "stats": {
+        "valid_count": 84543,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.6199695040012896,
+        "median": 0.6307484220018035
+      },
+      "breaks": {
+        "fixed": [
+          0.2,
+          0.4,
+          0.6,
+          0.8
+        ],
+        "quantile": [
+          0.544479,
+          0.606742,
+          0.653501,
+          0.705196
+        ]
+      }
+    },
+    {
+      "id": "bachelors_degree_or_higher_pct",
+      "label": "Educational Attainment: Bachelor's Degree or Higher (%) (ACS, 2020\u20132024)",
+      "group": "Socioeconomic & Demographic",
+      "description": "Share of population aged 25+ with a bachelor\u2019s degree or higher.",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "ACS (2020\u20132024)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "bachelors_degree_or_higher_pct",
+      "stats": {
+        "valid_count": 84528,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.3414345148691841,
+        "median": 0.29681959540114344
+      },
+      "breaks": {
+        "fixed": [
+          0.2,
+          0.4,
+          0.6,
+          0.8
+        ],
+        "quantile": [
+          0.164428,
+          0.248583,
+          0.354499,
+          0.51614
+        ]
+      }
+    },
+    {
+      "id": "average_household_size",
+      "label": "Average Household Size (ACS, 2020\u20132024)",
+      "group": "Socioeconomic & Demographic",
+      "description": "Average number of persons per household.",
+      "unit": "ratio",
+      "value_type": "number",
+      "palette": "sequential_blue",
+      "default_classification": "quantile",
+      "year_label": "ACS (2020\u20132024)",
+      "palette_colors": [
+        "#dbe9f5",
+        "#b9d3e7",
+        "#82afcd",
+        "#4f82a8",
+        "#1d4f82"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "average_household_size",
+      "stats": {
+        "valid_count": 84245,
+        "min": 1.0,
+        "max": 9.33,
+        "mean": 2.5490906285239476,
+        "median": 2.5
+      },
+      "breaks": {
+        "fixed": [
+          2.666,
+          4.332,
+          5.998,
+          7.664
+        ],
+        "quantile": [
+          2.16,
+          2.4,
+          2.61,
+          2.91
+        ]
+      }
+    },
+    {
+      "id": "single_parent_households_pct",
+      "label": "Single-Parent Households (%) (ACS, 2020\u20132024)",
+      "group": "Socioeconomic & Demographic",
+      "description": "Share of family households headed by a single parent.",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "ACS (2020\u20132024)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "single_parent_households_pct",
+      "stats": {
+        "valid_count": 84292,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.10427661513855549,
+        "median": 0.08687639005109554
+      },
+      "breaks": {
+        "fixed": [
+          0.2,
+          0.4,
+          0.6,
+          0.8
+        ],
+        "quantile": [
+          0.041625,
+          0.071429,
+          0.105061,
+          0.157407
+        ]
+      }
+    },
+    {
+      "id": "population_age_65_plus_pct",
+      "label": "Population Age 65+ (%) (ACS, 2020\u20132024)",
+      "group": "Socioeconomic & Demographic",
+      "description": "Share of population aged 65 and over.",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "ACS (2020\u20132024)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "population_age_65_plus_pct",
+      "stats": {
+        "valid_count": 84543,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.18101597218645413,
+        "median": 0.1712698889222455
+      },
+      "breaks": {
+        "fixed": [
+          0.2,
+          0.4,
+          0.6,
+          0.8
+        ],
+        "quantile": [
+          0.112026,
+          0.153277,
+          0.190086,
+          0.23697
+        ]
+      }
+    },
+    {
+      "id": "minority_share_pct",
+      "label": "Minority Share (ACS, 2020\u20132024)",
+      "group": "Socioeconomic & Demographic",
+      "description": "Share of population that is not Non-Hispanic White, consistent with HUD definitions of minority concentration.",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "ACS (2020\u20132024)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "minority_share_pct",
+      "stats": {
+        "valid_count": 84543,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.4251260231517955,
+        "median": 0.3539316658492725
+      },
+      "breaks": {
+        "fixed": [
+          0.2,
+          0.4,
+          0.6,
+          0.8
+        ],
+        "quantile": [
+          0.138161,
+          0.271009,
+          0.457503,
+          0.742397
+        ]
+      }
+    },
+    {
+      "id": "median_gross_rent",
+      "label": "Median Gross Rent (ACS, 2020\u20132024)",
+      "group": "Housing & Rent Conditions",
+      "description": "Median monthly housing cost for renter-occupied units, including utilities.",
+      "unit": "USD",
+      "value_type": "currency",
+      "palette": "sequential_green",
+      "default_classification": "quantile",
+      "year_label": "ACS (2020\u20132024)",
+      "palette_colors": [
+        "#e0eee4",
+        "#bbd5c2",
+        "#84af93",
+        "#4f8462",
+        "#24593d"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "median_gross_rent",
+      "stats": {
+        "valid_count": 80155,
+        "min": 99.0,
+        "max": 3501.0,
+        "mean": 1468.1255068305159,
+        "median": 1327.0
+      },
+      "breaks": {
+        "fixed": [
+          779.4,
+          1459.8,
+          2140.2,
+          2820.6
+        ],
+        "quantile": [
+          912.0,
+          1169.0,
+          1509.0,
+          1949.0
+        ]
+      }
+    },
+    {
+      "id": "rent_burdened_households_pct_30_plus",
+      "label": "Rent Burdened Households (%) (ACS, 2020\u20132024)",
+      "group": "Housing & Rent Conditions",
+      "description": "Share of renter households spending more than 30% of income on rent.",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "ACS (2020\u20132024)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "rent_burdened_households_pct_30_plus",
+      "stats": {
+        "valid_count": 84083,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.43846633967484344,
+        "median": 0.4451530612244898
+      },
+      "breaks": {
+        "fixed": [
+          0.2,
+          0.4,
+          0.6,
+          0.8
+        ],
+        "quantile": [
+          0.281485,
+          0.397141,
+          0.491883,
+          0.595486
+        ]
+      }
+    },
+    {
+      "id": "severely_rent_burdened_pct_50_plus",
+      "label": "Severely Rent Burdened Households (%) (ACS, 2020\u20132024)",
+      "group": "Housing & Rent Conditions",
+      "description": "Share of renter households spending more than 50% of income on rent.",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "ACS (2020\u20132024)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "severely_rent_burdened_pct_50_plus",
+      "stats": {
+        "valid_count": 84083,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.22147318499265184,
+        "median": 0.2062222222222222
+      },
+      "breaks": {
+        "fixed": [
+          0.2,
+          0.4,
+          0.6,
+          0.8
+        ],
+        "quantile": [
+          0.092308,
+          0.170732,
+          0.242857,
+          0.335745
+        ]
+      }
+    },
+    {
+      "id": "aqv_30",
+      "label": "Number of Affordable, Qualified and Vacant Units for Rent-30%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "group": "Housing & Rent Conditions",
+      "description": "Vacant-for-rent, housing unit has complete kitchen and plumbing facilities, rent <= RHUD30 (T14B_est4)",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "aqv_30",
+      "stats": {
+        "valid_count": 85059,
+        "min": 0.0,
+        "max": 735.0,
+        "mean": 3.0019750996367227,
+        "median": 0.0
+      },
+      "breaks": {
+        "fixed": [
+          147.0,
+          294.0,
+          441.0,
+          588.0
+        ],
+        "quantile": [
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "aqv_50",
+      "label": "Number of Affordable, Qualified and Vacant Units for Rent-50%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "group": "Housing & Rent Conditions",
+      "description": "Vacant-for-rent, housing unit has complete kitchen and plumbing facilities, rent <= RHUD50 (T14B_est4+T14B_est8)",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "aqv_50",
+      "stats": {
+        "valid_count": 85059,
+        "min": 0.0,
+        "max": 1915.0,
+        "mean": 11.192125465853113,
+        "median": 0.0
+      },
+      "breaks": {
+        "fixed": [
+          383.0,
+          766.0,
+          1149.0,
+          1532.0
+        ],
+        "quantile": [
+          0.0,
+          20.0
+        ]
+      }
+    },
+    {
+      "id": "aqv_80",
+      "label": "Number of Affordable, Qualified and Vacant Units for Rent-80%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "group": "Housing & Rent Conditions",
+      "description": "Vacant-for-rent, housing unit has complete kitchen and plumbing facilities, rent <= RHUD80 (T14B_est4+T14B_est8+T14B_est12)",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "aqv_80",
+      "stats": {
+        "valid_count": 85059,
+        "min": 0.0,
+        "max": 3045.0,
+        "mean": 21.0413360138257,
+        "median": 0.0
+      },
+      "breaks": {
+        "fixed": [
+          609.0,
+          1218.0,
+          1827.0,
+          2436.0
+        ],
+        "quantile": [
+          0.0,
+          10.0,
+          40.0
+        ]
+      }
+    },
+    {
+      "id": "aqv_100",
+      "label": "Number of Affordable, Qualified and Vacant Units for Rent-100%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "group": "Housing & Rent Conditions",
+      "description": "Not directly available from published CHAS Table 14B; RHUD80-RHUD100 is not isolated because the source only publishes a combined >RHUD80 bucket",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "aqv_100",
+      "stats": {
+        "valid_count": 0,
+        "min": null,
+        "max": null,
+        "mean": null,
+        "median": null
+      },
+      "breaks": {
+        "fixed": [],
+        "quantile": []
+      }
+    },
+    {
+      "id": "aqv_all",
+      "label": "Number of Affordable, Qualified and Vacant Units for Rent-All Income Bands (HUD CHAS Data, ACS2018-2022)",
+      "group": "Housing & Rent Conditions",
+      "description": "Vacant-for-rent, housing unit has complete kitchen and plumbing facilities, all rent levels (T14B_est3)",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "aqv_all",
+      "stats": {
+        "valid_count": 85059,
+        "min": 0.0,
+        "max": 4020.0,
+        "mean": 27.80742778541953,
+        "median": 4.0
+      },
+      "breaks": {
+        "fixed": [
+          804.0,
+          1608.0,
+          2412.0,
+          3216.0
+        ],
+        "quantile": [
+          0.0,
+          15.0,
+          45.0
+        ]
+      }
+    },
+    {
+      "id": "pvn_30",
+      "label": "Income-based Potential Voucher Need-30%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "group": "Spatial Mismatch",
+      "description": "renter occupied and renter household income less than or equal to 30% of HAMFI-All cost burden (T8_est69)",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "pvn_30",
+      "stats": {
+        "valid_count": 85059,
+        "min": 0.0,
+        "max": 2800.0,
+        "mean": 125.98263558236047,
+        "median": 75.0
+      },
+      "breaks": {
+        "fixed": [
+          560.0,
+          1120.0,
+          1680.0,
+          2240.0
+        ],
+        "quantile": [
+          20.0,
+          55.0,
+          105.0,
+          205.0
+        ]
+      }
+    },
+    {
+      "id": "pvn_50",
+      "label": "Income-based Potential Voucher Need-50%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "group": "Spatial Mismatch",
+      "description": "renter occupied and renter household income less than or equal to 50% of HAMFI-All cost burden (T8_est69 + T8_est82)",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "pvn_50",
+      "stats": {
+        "valid_count": 85059,
+        "min": 0.0,
+        "max": 3700.0,
+        "mean": 214.70509881376455,
+        "median": 145.0
+      },
+      "breaks": {
+        "fixed": [
+          740.0,
+          1480.0,
+          2220.0,
+          2960.0
+        ],
+        "quantile": [
+          45.0,
+          105.0,
+          195.0,
+          345.0
+        ]
+      }
+    },
+    {
+      "id": "pvn_80",
+      "label": "Income-based Potential Voucher Need-80%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "group": "Spatial Mismatch",
+      "description": "renter occupied and renter household income less than or equal to 80% of HAMFI-All cost burden (T8_est69 + T8_est82 + T8_est95)",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "pvn_80",
+      "stats": {
+        "valid_count": 85059,
+        "min": 0.0,
+        "max": 5035.0,
+        "mean": 322.681244783033,
+        "median": 235.0
+      },
+      "breaks": {
+        "fixed": [
+          1007.0,
+          2014.0,
+          3021.0,
+          4028.0
+        ],
+        "quantile": [
+          85.0,
+          180.0,
+          305.0,
+          515.0
+        ]
+      }
+    },
+    {
+      "id": "pvn_100",
+      "label": "Income-based Potential Voucher Need-100%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "group": "Spatial Mismatch",
+      "description": "renter occupied and renter household income less than or equal to 100% of HAMFI-All cost burden (T8_est69 + T8_est82 + T8_est95 + T8_est108)",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "pvn_100",
+      "stats": {
+        "valid_count": 85059,
+        "min": 0.0,
+        "max": 5840.0,
+        "mean": 378.1956876991265,
+        "median": 285.0
+      },
+      "breaks": {
+        "fixed": [
+          1168.0,
+          2336.0,
+          3504.0,
+          4672.0
+        ],
+        "quantile": [
+          105.0,
+          215.0,
+          365.0,
+          605.0
+        ]
+      }
+    },
+    {
+      "id": "pvn_all",
+      "label": "Income-based Potential Voucher Need-All Income Bands (HUD CHAS Data, ACS2018-2022)",
+      "group": "Spatial Mismatch",
+      "description": "renter occupied-all household income groups-All cost burden (T8_est68)",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "pvn_all",
+      "stats": {
+        "valid_count": 85059,
+        "min": 0.0,
+        "max": 8210.0,
+        "mean": 524.6630338941205,
+        "median": 405.0
+      },
+      "breaks": {
+        "fixed": [
+          1642.0,
+          3284.0,
+          4926.0,
+          6568.0
+        ],
+        "quantile": [
+          170.0,
+          315.0,
+          510.0,
+          817.0
+        ]
+      }
+    },
+    {
+      "id": "vng_30",
+      "label": "Income-based Voucher Need Gap -30%HAMFI",
+      "group": "Spatial Mismatch",
+      "description": "Difference between income-based potential voucher need at 30% of HAMFI and existing HCV households in the tract (pvn_30 - hcv_occupied)",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "vng_30",
+      "stats": {
+        "valid_count": 85059,
+        "min": -2236.0,
+        "max": 2536.0,
+        "mean": 93.91271940652959,
+        "median": 55.0
+      },
+      "breaks": {
+        "fixed": [
+          -1281.6,
+          -327.2,
+          627.2,
+          1581.6
+        ],
+        "quantile": [
+          8.0,
+          37.0,
+          79.0,
+          156.0
+        ]
+      }
+    },
+    {
+      "id": "vng_50",
+      "label": "Income-based Voucher Need Gap -50%HAMFI",
+      "group": "Spatial Mismatch",
+      "description": "Difference between income-based potential voucher need at 50% of HAMFI and existing HCV households in the tract (pvn_50 - hcv_occupied)",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "vng_50",
+      "stats": {
+        "valid_count": 85059,
+        "min": -2093.0,
+        "max": 3436.0,
+        "mean": 182.63518263793367,
+        "median": 125.0
+      },
+      "breaks": {
+        "fixed": [
+          -987.2,
+          118.6,
+          1224.4,
+          2330.2
+        ],
+        "quantile": [
+          36.0,
+          90.0,
+          166.0,
+          296.0
+        ]
+      }
+    },
+    {
+      "id": "vng_80",
+      "label": "Income-based Voucher Need Gap -80%HAMFI",
+      "group": "Spatial Mismatch",
+      "description": "Difference between income-based potential voucher need at 80% of HAMFI and existing HCV households in the tract (pvn_80 - hcv_occupied)",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "vng_80",
+      "stats": {
+        "valid_count": 85059,
+        "min": -1923.0,
+        "max": 5035.0,
+        "mean": 290.61132860720204,
+        "median": 213.0
+      },
+      "breaks": {
+        "fixed": [
+          -531.4,
+          860.2,
+          2251.8,
+          3643.4
+        ],
+        "quantile": [
+          75.0,
+          161.0,
+          276.0,
+          465.0
+        ]
+      }
+    },
+    {
+      "id": "vng_100",
+      "label": "Income-based Voucher Need Gap -100%HAMFI",
+      "group": "Spatial Mismatch",
+      "description": "Difference between income-based potential voucher need at 100% of HAMFI and existing HCV households in the tract (pvn_100 - hcv_occupied)",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "vng_100",
+      "stats": {
+        "valid_count": 85059,
+        "min": -1853.0,
+        "max": 5840.0,
+        "mean": 346.1257715232956,
+        "median": 259.0
+      },
+      "breaks": {
+        "fixed": [
+          -314.4,
+          1224.2,
+          2762.8,
+          4301.4
+        ],
+        "quantile": [
+          97.0,
+          199.0,
+          334.0,
+          551.0
+        ]
+      }
+    },
+    {
+      "id": "vng_all",
+      "label": "Income-based Voucher Need Gap -All Income Bands",
+      "group": "Spatial Mismatch",
+      "description": "Difference between income-based potential voucher need across all income bands and existing HCV households in the tract (pvn_all - hcv_occupied)",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "vng_all",
+      "stats": {
+        "valid_count": 85059,
+        "min": -1628.0,
+        "max": 8193.0,
+        "mean": 492.59311771828965,
+        "median": 377.0
+      },
+      "breaks": {
+        "fixed": [
+          336.2,
+          2300.4,
+          4264.6,
+          6228.8
+        ],
+        "quantile": [
+          160.0,
+          297.0,
+          475.0,
+          764.0
+        ]
+      }
+    },
+    {
+      "id": "em_30",
+      "label": "Eligibility Mismatch-30%HAMFI",
+      "group": "Spatial Mismatch",
+      "description": "Difference between the remaining income-based voucher need gap at 30% of HAMFI and the number of affordable, qualified, and vacant rental units at the same affordability level (vng_30 - aqv_30)",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "em_30",
+      "stats": {
+        "valid_count": 85059,
+        "min": -2236.0,
+        "max": 2481.0,
+        "mean": 90.91074430689287,
+        "median": 53.0
+      },
+      "breaks": {
+        "fixed": [
+          -1292.6,
+          -349.2,
+          594.2,
+          1537.6
+        ],
+        "quantile": [
+          6.0,
+          35.0,
+          76.0,
+          152.0
+        ]
+      }
+    },
+    {
+      "id": "em_50",
+      "label": "Eligibility Mismatch-50%HAMFI",
+      "group": "Spatial Mismatch",
+      "description": "Difference between the remaining income-based voucher need gap at 50% of HAMFI and the number of affordable, qualified, and vacant rental units at the same affordability level (vng_50 - aqv_50)",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "em_50",
+      "stats": {
+        "valid_count": 85059,
+        "min": -2113.0,
+        "max": 3331.0,
+        "mean": 171.44305717208056,
+        "median": 115.0
+      },
+      "breaks": {
+        "fixed": [
+          -1024.2,
+          64.6,
+          1153.4,
+          2242.2
+        ],
+        "quantile": [
+          31.0,
+          83.0,
+          155.0,
+          280.0
+        ]
+      }
+    },
+    {
+      "id": "em_80",
+      "label": "Eligibility Mismatch-80%HAMFI",
+      "group": "Spatial Mismatch",
+      "description": "Difference between the remaining income-based voucher need gap at 80% of HAMFI and the number of affordable, qualified, and vacant rental units at the same affordability level (vng_80 - aqv_80)",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "em_80",
+      "stats": {
+        "valid_count": 85059,
+        "min": -2882.0,
+        "max": 4515.0,
+        "mean": 269.56999259337636,
+        "median": 196.0
+      },
+      "breaks": {
+        "fixed": [
+          -1402.6,
+          76.8,
+          1556.2,
+          3035.6
+        ],
+        "quantile": [
+          66.0,
+          147.0,
+          256.0,
+          435.0
+        ]
+      }
+    },
+    {
+      "id": "em_100",
+      "label": "Eligibility Mismatch-100%HAMFI",
+      "group": "Spatial Mismatch",
+      "description": "Not directly computable from published CHAS Table 14B because aqv_100 is not isolated",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "em_100",
+      "stats": {
+        "valid_count": 0,
+        "min": null,
+        "max": null,
+        "mean": null,
+        "median": null
+      },
+      "breaks": {
+        "fixed": [],
+        "quantile": []
+      }
+    },
+    {
+      "id": "em_all",
+      "label": "Eligibility Mismatch-All Income Bands",
+      "group": "Spatial Mismatch",
+      "description": "Difference between the remaining income-based voucher need gap across all income bands and the number of affordable, qualified, and vacant rental units across all rent levels (vng_all - aqv_all)",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "em_all",
+      "stats": {
+        "valid_count": 85059,
+        "min": -3450.0,
+        "max": 7823.0,
+        "mean": 464.7856899328701,
+        "median": 356.0
+      },
+      "breaks": {
+        "fixed": [
+          -1195.4,
+          1059.2,
+          3313.8,
+          5568.4
+        ],
+        "quantile": [
+          149.0,
+          279.0,
+          449.0,
+          725.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_occupied",
+      "label": "Housing Choice Vouchers Occupied Units(HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Number of occupied units under contract for federal subsidy.",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_occupied",
+      "stats": {
+        "valid_count": 37914,
+        "min": 0.0,
+        "max": 2246.0,
+        "mean": 56.26151289761038,
+        "median": 35.0
+      },
+      "breaks": {
+        "fixed": [
+          449.2,
+          898.4,
+          1347.6,
+          1796.8
+        ],
+        "quantile": [
+          17.0,
+          27.0,
+          45.0,
+          81.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_pct_occupied",
+      "label": "Housing Choice Vouchers Percent Occupied (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Occupied units as the % of units available.",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_pct_occupied",
+      "stats": {
+        "valid_count": 37914,
+        "min": 0.0,
+        "max": 105.0,
+        "mean": 83.91193226776389,
+        "median": 86.0
+      },
+      "breaks": {
+        "fixed": [
+          21.0,
+          42.0,
+          63.0,
+          84.0
+        ],
+        "quantile": [
+          77.0,
+          84.0,
+          87.0,
+          92.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_reported",
+      "label": "Housing Choice Vouchers Reported Count (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Number of households for which reports (Form-50058",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_reported",
+      "stats": {
+        "valid_count": 38267,
+        "min": 11.0,
+        "max": 1420.0,
+        "mean": 57.573313821308176,
+        "median": 36.0
+      },
+      "breaks": {
+        "fixed": [
+          292.8,
+          574.6,
+          856.4,
+          1138.2
+        ],
+        "quantile": [
+          17.0,
+          28.0,
+          46.0,
+          83.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_pct_reported",
+      "label": "Housing Choice Vouchers Percent Reported (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Households for which reports were received",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_pct_reported",
+      "stats": {
+        "valid_count": 37914,
+        "min": -1.0,
+        "max": 100.0,
+        "mean": 98.28709711452234,
+        "median": 100.0
+      },
+      "breaks": {
+        "fixed": [
+          19.2,
+          39.4,
+          59.6,
+          79.8
+        ],
+        "quantile": [
+          98.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_months_since_report",
+      "label": "Housing Choice Vouchers Months Since Report (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Average number of months between the household submissions and the date of the Picture snapshot.",
+      "unit": "months",
+      "value_type": "number",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_months_since_report",
+      "stats": {
+        "valid_count": 37914,
+        "min": -1.0,
+        "max": 27.0,
+        "mean": 6.084269662921348,
+        "median": 6.0
+      },
+      "breaks": {
+        "fixed": [
+          4.6,
+          10.2,
+          15.8,
+          21.4
+        ],
+        "quantile": [
+          5.0,
+          6.0,
+          7.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_pct_movein",
+      "label": "Housing Choice Vouchers Percent Moved In Past Year (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Percentage of households who were in the program less than a year from the date of Picture snapshot.",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_pct_movein",
+      "stats": {
+        "valid_count": 37914,
+        "min": -1.0,
+        "max": 100.0,
+        "mean": 6.584190536477291,
+        "median": 4.0
+      },
+      "breaks": {
+        "fixed": [
+          19.2,
+          39.4,
+          59.6,
+          79.8
+        ],
+        "quantile": [
+          -1.0,
+          3.0,
+          6.0,
+          11.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_people_per_unit",
+      "label": "Housing Choice Vouchers People per Unit (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Average size of household.",
+      "unit": "ratio",
+      "value_type": "number",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_people_per_unit",
+      "stats": {
+        "valid_count": 37914,
+        "min": 1.0,
+        "max": 9.6,
+        "mean": 2.2048478134725955,
+        "median": 2.1
+      },
+      "breaks": {
+        "fixed": [
+          2.72,
+          4.44,
+          6.16,
+          7.88
+        ],
+        "quantile": [
+          1.5,
+          1.9,
+          2.3,
+          2.8
+        ]
+      }
+    },
+    {
+      "id": "hcv_people_total",
+      "label": "Housing Choice Vouchers People Total (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Total number of people.",
+      "unit": "count",
+      "value_type": "count",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_people_total",
+      "stats": {
+        "valid_count": 37914,
+        "min": 11.0,
+        "max": 4431.0,
+        "mean": 123.5806298464947,
+        "median": 76.5
+      },
+      "breaks": {
+        "fixed": [
+          895.0,
+          1779.0,
+          2663.0,
+          3547.0
+        ],
+        "quantile": [
+          37.0,
+          60.0,
+          98.0,
+          177.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_rent_per_month",
+      "label": "Housing Choice Vouchers Rent per Month (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Average gross household contribution towards rent per month includes payment toward rent and utilities and excludes zero values and missing values.",
+      "unit": "USD",
+      "value_type": "currency",
+      "palette": "sequential_green",
+      "default_classification": "quantile",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#e0eee4",
+        "#bbd5c2",
+        "#84af93",
+        "#4f8462",
+        "#24593d"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_rent_per_month",
+      "stats": {
+        "valid_count": 37914,
+        "min": 0.0,
+        "max": 1646.0,
+        "mean": 503.67745423853984,
+        "median": 470.0
+      },
+      "breaks": {
+        "fixed": [
+          329.2,
+          658.4,
+          987.6,
+          1316.8
+        ],
+        "quantile": [
+          377.0,
+          438.0,
+          508.0,
+          616.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_spending_per_month",
+      "label": "Housing Choice Vouchers Spending per Month (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Average federal spending per unit-month.",
+      "unit": "USD",
+      "value_type": "currency",
+      "palette": "sequential_green",
+      "default_classification": "quantile",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#e0eee4",
+        "#bbd5c2",
+        "#84af93",
+        "#4f8462",
+        "#24593d"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_spending_per_month",
+      "stats": {
+        "valid_count": 37914,
+        "min": -1.0,
+        "max": 11302.0,
+        "mean": 1247.9775808408504,
+        "median": 1178.0
+      },
+      "breaks": {
+        "fixed": [
+          2259.6,
+          4520.2,
+          6780.8,
+          9041.4
+        ],
+        "quantile": [
+          760.0,
+          1030.0,
+          1332.0,
+          1733.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_hh_income",
+      "label": "Housing Choice Vouchers Household Income (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Average total household income per year.",
+      "unit": "USD",
+      "value_type": "currency",
+      "palette": "sequential_green",
+      "default_classification": "quantile",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#e0eee4",
+        "#bbd5c2",
+        "#84af93",
+        "#4f8462",
+        "#24593d"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_hh_income",
+      "stats": {
+        "valid_count": 37914,
+        "min": 1071.0,
+        "max": 167898.0,
+        "mean": 19415.490109194492,
+        "median": 18349.5
+      },
+      "breaks": {
+        "fixed": [
+          34436.4,
+          67801.8,
+          101167.2,
+          134532.6
+        ],
+        "quantile": [
+          14845.6,
+          17150.0,
+          19703.0,
+          23551.8
+        ]
+      }
+    },
+    {
+      "id": "hcv_person_income",
+      "label": "Housing Choice Vouchers Person Income (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Average household income per person per year.",
+      "unit": "USD",
+      "value_type": "currency",
+      "palette": "sequential_green",
+      "default_classification": "quantile",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#e0eee4",
+        "#bbd5c2",
+        "#84af93",
+        "#4f8462",
+        "#24593d"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_person_income",
+      "stats": {
+        "valid_count": 37914,
+        "min": 369.0,
+        "max": 85348.0,
+        "mean": 9503.08113098064,
+        "median": 9072.0
+      },
+      "breaks": {
+        "fixed": [
+          17364.8,
+          34360.6,
+          51356.4,
+          68352.2
+        ],
+        "quantile": [
+          6637.0,
+          8246.0,
+          9966.0,
+          12175.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_pct_lt80_median",
+      "label": "Housing Choice Vouchers Share Below 80 Percent Median (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Percentage of households with income below 80% of local area median family income.",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_pct_lt80_median",
+      "stats": {
+        "valid_count": 37914,
+        "min": 82.0,
+        "max": 100.0,
+        "mean": 99.59653426175028,
+        "median": 100.0
+      },
+      "breaks": {
+        "fixed": [
+          85.6,
+          89.2,
+          92.8,
+          96.4
+        ],
+        "quantile": [
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_pct_lt50_median",
+      "label": "Housing Choice Vouchers Share Below 50 Percent Median (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Percentage of households with income below 50% of local area median family income",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_pct_lt50_median",
+      "stats": {
+        "valid_count": 37914,
+        "min": 46.0,
+        "max": 100.0,
+        "mean": 95.6358601044469,
+        "median": 97.0
+      },
+      "breaks": {
+        "fixed": [
+          56.8,
+          67.6,
+          78.4,
+          89.2
+        ],
+        "quantile": [
+          92.0,
+          96.0,
+          98.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_pct_lt30_median",
+      "label": "Housing Choice Vouchers Share Below 30 Percent Median (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Percentage of households with income below 30% of local area median family income",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_pct_lt30_median",
+      "stats": {
+        "valid_count": 37914,
+        "min": 7.0,
+        "max": 100.0,
+        "mean": 78.36279474600411,
+        "median": 80.0
+      },
+      "breaks": {
+        "fixed": [
+          25.6,
+          44.2,
+          62.8,
+          81.4
+        ],
+        "quantile": [
+          70.0,
+          77.0,
+          82.0,
+          88.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_months_waiting",
+      "label": "Housing Choice Vouchers Months Waiting (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Average months on waiting list using the date entered waiting list and the new admission date. Excludes programs that do not report waiting list dates.",
+      "unit": "months",
+      "value_type": "number",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_months_waiting",
+      "stats": {
+        "valid_count": 37914,
+        "min": -1.0,
+        "max": 752.0,
+        "mean": 15.995885424909005,
+        "median": 3.0
+      },
+      "breaks": {
+        "fixed": [
+          149.6,
+          300.2,
+          450.8,
+          601.4
+        ],
+        "quantile": [
+          -1.0,
+          8.0,
+          25.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_months_from_movein",
+      "label": "Housing Choice Vouchers Months From Move-In (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Average months since households moved in as difference between the admission date and date of Picture snapshot. Excludes zero values.",
+      "unit": "months",
+      "value_type": "number",
+      "palette": "sequential_slate",
+      "default_classification": "quantile",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#dde5ec",
+        "#bcc9d4",
+        "#8a9bab",
+        "#5a6c80",
+        "#334155"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_months_from_movein",
+      "stats": {
+        "valid_count": 37914,
+        "min": 4.0,
+        "max": 1220.0,
+        "mean": 130.13662499340612,
+        "median": 120.0
+      },
+      "breaks": {
+        "fixed": [
+          247.2,
+          490.4,
+          733.6,
+          976.8
+        ],
+        "quantile": [
+          85.0,
+          109.0,
+          132.0,
+          164.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_pct_utility_allow",
+      "label": "Housing Choice Vouchers Utility Allowance Share (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Percentage of households that receive a non-zero utility allowance payment.",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_pct_utility_allow",
+      "stats": {
+        "valid_count": 37914,
+        "min": -1.0,
+        "max": 100.0,
+        "mean": 88.30315978266603,
+        "median": 98.0
+      },
+      "breaks": {
+        "fixed": [
+          19.2,
+          39.4,
+          59.6,
+          79.8
+        ],
+        "quantile": [
+          84.0,
+          95.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_ave_util_allow",
+      "label": "Housing Choice Vouchers Average Utility Allowance (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Average utility allowance among households who have it in dollars per month. This is an estimate of the utilities that the household pays to the utility company. Utility allowances are zero if all utilities are included in the rent. Excludes zero values.",
+      "unit": "USD",
+      "value_type": "currency",
+      "palette": "sequential_green",
+      "default_classification": "quantile",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#e0eee4",
+        "#bbd5c2",
+        "#84af93",
+        "#4f8462",
+        "#24593d"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_ave_util_allow",
+      "stats": {
+        "valid_count": 37914,
+        "min": -1.0,
+        "max": 965.0,
+        "mean": 179.7164899509416,
+        "median": 170.0
+      },
+      "breaks": {
+        "fixed": [
+          192.2,
+          385.4,
+          578.6,
+          771.8
+        ],
+        "quantile": [
+          118.0,
+          152.0,
+          189.0,
+          237.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_pct_bed1",
+      "label": "Housing Choice Vouchers Bedroom 1 Share (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Percent of households with 0-1 bedroom units efficiencies and one bedroom.",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_pct_bed1",
+      "stats": {
+        "valid_count": 37914,
+        "min": -1.0,
+        "max": 100.0,
+        "mean": 32.27670517486944,
+        "median": 28.0
+      },
+      "breaks": {
+        "fixed": [
+          19.2,
+          39.4,
+          59.6,
+          79.8
+        ],
+        "quantile": [
+          8.0,
+          21.0,
+          36.0,
+          55.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_pct_bed2",
+      "label": "Housing Choice Vouchers Bedroom 2 Share (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Percent of households with 2 bedroom units.",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_pct_bed2",
+      "stats": {
+        "valid_count": 37914,
+        "min": -1.0,
+        "max": 100.0,
+        "mean": 33.82502505670728,
+        "median": 33.0
+      },
+      "breaks": {
+        "fixed": [
+          19.2,
+          39.4,
+          59.6,
+          79.8
+        ],
+        "quantile": [
+          18.0,
+          29.0,
+          38.0,
+          49.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_pct_bed3",
+      "label": "Housing Choice Vouchers Bedroom 3 Share (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Percent of households with 3 or more bedroom units.",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_pct_bed3",
+      "stats": {
+        "valid_count": 37914,
+        "min": -1.0,
+        "max": 100.0,
+        "mean": 33.71561956005697,
+        "median": 28.0
+      },
+      "breaks": {
+        "fixed": [
+          19.2,
+          39.4,
+          59.6,
+          79.8
+        ],
+        "quantile": [
+          10.0,
+          22.0,
+          36.0,
+          56.0
+        ]
+      }
+    },
+    {
+      "id": "hcv_pct_overhoused",
+      "label": "Housing Choice Vouchers Overhoused Share (HUD, 2025)",
+      "group": "Housing Choice Voucher Users",
+      "description": "Percent overhoused households with more bedrooms than people.",
+      "unit": "percent",
+      "value_type": "percent",
+      "palette": "sequential_teal",
+      "default_classification": "fixed",
+      "year_label": "Assisted Housing: National and Local (HUD, 2025)",
+      "palette_colors": [
+        "#ddefed",
+        "#b7d8d3",
+        "#7bb4ab",
+        "#43867f",
+        "#145d60"
+      ],
+      "missing_color": "#d1d5db",
+      "null_label": "No data",
+      "field": "hcv_pct_overhoused",
+      "stats": {
+        "valid_count": 37914,
+        "min": -1.0,
+        "max": 100.0,
+        "mean": 24.021153136044735,
+        "median": 22.0
+      },
+      "breaks": {
+        "fixed": [
+          19.2,
+          39.4,
+          59.6,
+          79.8
+        ],
+        "quantile": [
+          10.0,
+          18.0,
+          26.0,
+          37.0
+        ]
+      }
+    }
+  ]
+}

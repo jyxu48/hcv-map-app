@@ -1,0 +1,6 @@
+.DS_Store
+map_server.log
+map_server.pid
+data/tiles/
+data/tiles_coi_idx/
+scripts/__pycache__/

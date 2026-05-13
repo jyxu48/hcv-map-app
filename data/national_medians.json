@@ -1,0 +1,1113 @@
+{
+  "tract": {
+    "hcv_25": {
+      "indicator": "hcv_25",
+      "indicator_name": "Housing Choice Vouchers (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 15.0,
+      "status": "computed_from_master_table"
+    },
+    "recap": {
+      "indicator": "recap",
+      "indicator_name": "Racially or Ethnically Concentrated Areas of Poverty (R/ECAPs) (2020-2024)",
+      "source_dataset": "ACS 2020\u20132024",
+      "level_label": "Census Tract",
+      "non_missing_n": 76658,
+      "national_median": 0.0,
+      "status": "computed_from_master_table"
+    },
+    "rcaa": {
+      "indicator": "rcaa",
+      "indicator_name": "Racially Concentrated Areas of Affluence (RCAAs) (2020-2024)",
+      "source_dataset": "ACS 2020-2024",
+      "level_label": "Census Tract",
+      "non_missing_n": 83841,
+      "national_median": 0.0,
+      "status": "computed_from_master_table"
+    },
+    "coi_idx": {
+      "indicator": "coi_idx",
+      "indicator_name": "Child Opportunity Index (COI3.0)-Child Opportunity Index (DDK, 2023)",
+      "source_dataset": "Child Opportunity Index (COI3.0)-Child Opportunity Index (DDK, 2023)",
+      "level_label": "Census Tract",
+      "non_missing_n": 83857,
+      "national_median": 50.0,
+      "status": "computed_from_master_table"
+    },
+    "coi_edu": {
+      "indicator": "coi_edu",
+      "indicator_name": "Child Opportunity Index (COI3.0)-education domain (DDK, 2023)",
+      "source_dataset": "Child Opportunity Index (COI3.0)-Child Opportunity Index (DDK, 2023)",
+      "level_label": "Census Tract",
+      "non_missing_n": 83847,
+      "national_median": 50.0,
+      "status": "computed_from_master_table"
+    },
+    "coi_health_env": {
+      "indicator": "coi_health_env",
+      "indicator_name": "Child Opportunity Index (COI3.0)-health and environment domain (DDK, 2023)",
+      "source_dataset": "Child Opportunity Index (COI3.0)-Child Opportunity Index (DDK, 2023)",
+      "level_label": "Census Tract",
+      "non_missing_n": 83865,
+      "national_median": 50.0,
+      "status": "computed_from_master_table"
+    },
+    "coi_soc_eco": {
+      "indicator": "coi_soc_eco",
+      "indicator_name": "Child Opportunity Index (COI3.0)-social and economic domain (DDK, 2023)",
+      "source_dataset": "Child Opportunity Index (COI3.0)-Child Opportunity Index (DDK, 2023)",
+      "level_label": "Census Tract",
+      "non_missing_n": 83438,
+      "national_median": 50.0,
+      "status": "computed_from_master_table"
+    },
+    "haz_idx": {
+      "indicator": "haz_idx",
+      "indicator_name": "Environmental health index (AFFHT0007, 2024)",
+      "source_dataset": "AFFHT0007, (HUD, 2024)-\nEPA 2019 with 2020 GEO Codes",
+      "level_label": "Census Tract",
+      "non_missing_n": 84901,
+      "national_median": 49.0,
+      "status": "computed_from_master_table"
+    },
+    "mhi_tract": {
+      "indicator": "mhi_tract",
+      "indicator_name": "Median Household Income-Tract (ACS, 2020-2024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "Census Tract",
+      "non_missing_n": 83841,
+      "national_median": 77011.0,
+      "status": "computed_from_master_table"
+    },
+    "poverty_rate": {
+      "indicator": "poverty_rate",
+      "indicator_name": "Poverty Rate (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "Census Tract",
+      "non_missing_n": 84352,
+      "national_median": 0.106997,
+      "status": "computed_from_master_table"
+    },
+    "unemployment_rate": {
+      "indicator": "unemployment_rate",
+      "indicator_name": "Unemployment Rate (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "Census Tract",
+      "non_missing_n": 84389,
+      "national_median": 0.044627,
+      "status": "computed_from_master_table"
+    },
+    "lfp_rate": {
+      "indicator": "lfp_rate",
+      "indicator_name": "Labor Force Participation Rate (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "Census Tract",
+      "non_missing_n": 84543,
+      "national_median": 0.630748,
+      "status": "computed_from_master_table"
+    },
+    "ba_plus_share": {
+      "indicator": "ba_plus_share",
+      "indicator_name": "Educational Attainment: Bachelor's Degree or Higher (%) (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "Census Tract",
+      "non_missing_n": 84528,
+      "national_median": 0.29682,
+      "status": "computed_from_master_table"
+    },
+    "avg_hh_size": {
+      "indicator": "avg_hh_size",
+      "indicator_name": "Average Household Size (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "Census Tract",
+      "non_missing_n": 84245,
+      "national_median": 2.5,
+      "status": "computed_from_master_table"
+    },
+    "single_parent_share": {
+      "indicator": "single_parent_share",
+      "indicator_name": "Single-Parent Households (%) (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "Census Tract",
+      "non_missing_n": 84292,
+      "national_median": 0.086876,
+      "status": "computed_from_master_table"
+    },
+    "pop_65plus_share": {
+      "indicator": "pop_65plus_share",
+      "indicator_name": "Population Age 65+ (%) (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "Census Tract",
+      "non_missing_n": 84543,
+      "national_median": 0.17127,
+      "status": "computed_from_master_table"
+    },
+    "minority_share": {
+      "indicator": "minority_share",
+      "indicator_name": "Minority Share (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "Census Tract",
+      "non_missing_n": 84543,
+      "national_median": 0.353932,
+      "status": "computed_from_master_table"
+    },
+    "median_gross_rent": {
+      "indicator": "median_gross_rent",
+      "indicator_name": "Median Gross Rent (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "Census Tract",
+      "non_missing_n": 80155,
+      "national_median": 1327.0,
+      "status": "computed_from_master_table"
+    },
+    "rent_burdened_share": {
+      "indicator": "rent_burdened_share",
+      "indicator_name": "Rent Burdened Households (%) (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "Census Tract",
+      "non_missing_n": 84083,
+      "national_median": 0.445153,
+      "status": "computed_from_master_table"
+    },
+    "severe_rent_burdened_share": {
+      "indicator": "severe_rent_burdened_share",
+      "indicator_name": "Severely Rent Burdened Households (%) (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "Census Tract",
+      "non_missing_n": 84083,
+      "national_median": 0.206222,
+      "status": "computed_from_master_table"
+    },
+    "aqv_30": {
+      "indicator": "aqv_30",
+      "indicator_name": "Number of Affordable, Qualified and Vacant Units for Rent-30%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "source_dataset": "HUD CHAS Data (2018-2022)",
+      "level_label": "Census Tract",
+      "non_missing_n": 85059,
+      "national_median": 0.0,
+      "status": "computed_from_master_table"
+    },
+    "aqv_50": {
+      "indicator": "aqv_50",
+      "indicator_name": "Number of Affordable, Qualified and Vacant Units for Rent-50%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "source_dataset": "HUD CHAS Data (2018-2022)",
+      "level_label": "Census Tract",
+      "non_missing_n": 85059,
+      "national_median": 0.0,
+      "status": "computed_from_master_table"
+    },
+    "aqv_80": {
+      "indicator": "aqv_80",
+      "indicator_name": "Number of Affordable, Qualified and Vacant Units for Rent-80%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "source_dataset": "HUD CHAS Data (2018-2022)",
+      "level_label": "Census Tract",
+      "non_missing_n": 85059,
+      "national_median": 0.0,
+      "status": "computed_from_master_table"
+    },
+    "aqv_all": {
+      "indicator": "aqv_all",
+      "indicator_name": "Number of Affordable, Qualified and Vacant Units for Rent-All Income Bands (HUD CHAS Data, ACS2018-2022)",
+      "source_dataset": "HUD CHAS Data (2018-2022)",
+      "level_label": "Census Tract",
+      "non_missing_n": 85059,
+      "national_median": 4.0,
+      "status": "computed_from_master_table"
+    },
+    "pvn_30": {
+      "indicator": "pvn_30",
+      "indicator_name": "Income-based Potential Voucher Need-30%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "source_dataset": "HUD CHAS Data (2018-2022)",
+      "level_label": "Census Tract",
+      "non_missing_n": 85059,
+      "national_median": 75.0,
+      "status": "computed_from_master_table"
+    },
+    "pvn_50": {
+      "indicator": "pvn_50",
+      "indicator_name": "Income-based Potential Voucher Need-50%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "source_dataset": "HUD CHAS Data (2018-2022)",
+      "level_label": "Census Tract",
+      "non_missing_n": 85059,
+      "national_median": 145.0,
+      "status": "computed_from_master_table"
+    },
+    "pvn_80": {
+      "indicator": "pvn_80",
+      "indicator_name": "Income-based Potential Voucher Need-80%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "source_dataset": "HUD CHAS Data (2018-2022)",
+      "level_label": "Census Tract",
+      "non_missing_n": 85059,
+      "national_median": 235.0,
+      "status": "computed_from_master_table"
+    },
+    "pvn_100": {
+      "indicator": "pvn_100",
+      "indicator_name": "Income-based Potential Voucher Need-100%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "source_dataset": "HUD CHAS Data (2018-2022)",
+      "level_label": "Census Tract",
+      "non_missing_n": 85059,
+      "national_median": 285.0,
+      "status": "computed_from_master_table"
+    },
+    "pvn_all": {
+      "indicator": "pvn_all",
+      "indicator_name": "Income-based Potential Voucher Need-All Income Bands (HUD CHAS Data, ACS2018-2022)",
+      "source_dataset": "HUD CHAS Data (2018-2022)",
+      "level_label": "Census Tract",
+      "non_missing_n": 85059,
+      "national_median": 405.0,
+      "status": "computed_from_master_table"
+    },
+    "vng_30": {
+      "indicator": "vng_30",
+      "indicator_name": "Income-based Voucher Need Gap -30%HAMFI",
+      "source_dataset": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 85059,
+      "national_median": 55.0,
+      "status": "computed_from_master_table"
+    },
+    "vng_50": {
+      "indicator": "vng_50",
+      "indicator_name": "Income-based Voucher Need Gap -50%HAMFI",
+      "source_dataset": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 85059,
+      "national_median": 125.0,
+      "status": "computed_from_master_table"
+    },
+    "vng_80": {
+      "indicator": "vng_80",
+      "indicator_name": "Income-based Voucher Need Gap -80%HAMFI",
+      "source_dataset": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 85059,
+      "national_median": 213.0,
+      "status": "computed_from_master_table"
+    },
+    "vng_100": {
+      "indicator": "vng_100",
+      "indicator_name": "Income-based Voucher Need Gap -100%HAMFI",
+      "source_dataset": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 85059,
+      "national_median": 259.0,
+      "status": "computed_from_master_table"
+    },
+    "vng_all": {
+      "indicator": "vng_all",
+      "indicator_name": "Income-based Voucher Need Gap -All Income Bands",
+      "source_dataset": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 85059,
+      "national_median": 377.0,
+      "status": "computed_from_master_table"
+    },
+    "em_30": {
+      "indicator": "em_30",
+      "indicator_name": "Eligibility Mismatch-30%HAMFI",
+      "source_dataset": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 85059,
+      "national_median": 53.0,
+      "status": "computed_from_master_table"
+    },
+    "em_50": {
+      "indicator": "em_50",
+      "indicator_name": "Eligibility Mismatch-50%HAMFI",
+      "source_dataset": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 85059,
+      "national_median": 115.0,
+      "status": "computed_from_master_table"
+    },
+    "em_80": {
+      "indicator": "em_80",
+      "indicator_name": "Eligibility Mismatch-80%HAMFI",
+      "source_dataset": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 85059,
+      "national_median": 196.0,
+      "status": "computed_from_master_table"
+    },
+    "em_all": {
+      "indicator": "em_all",
+      "indicator_name": "Eligibility Mismatch-All Income Bands",
+      "source_dataset": "HUD CHAS Data (2018-2022), Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 85059,
+      "national_median": 356.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_occupied": {
+      "indicator": "hcv_occupied",
+      "indicator_name": "Housing Choice Vouchers Occupied Units(HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 12.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_pct_occupied": {
+      "indicator": "hcv_pct_occupied",
+      "indicator_name": "Housing Choice Vouchers Percent Occupied (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 68.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_reported": {
+      "indicator": "hcv_reported",
+      "indicator_name": "Housing Choice Vouchers Reported Count (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 13.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_pct_reported": {
+      "indicator": "hcv_pct_reported",
+      "indicator_name": "Housing Choice Vouchers Percent Reported (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 94.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_months_since_report": {
+      "indicator": "hcv_months_since_report",
+      "indicator_name": "Housing Choice Vouchers Months Since Report (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 4.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_pct_movein": {
+      "indicator": "hcv_pct_movein",
+      "indicator_name": "Housing Choice Vouchers Percent Moved In Past Year (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": -1.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_people_per_unit": {
+      "indicator": "hcv_people_per_unit",
+      "indicator_name": "Housing Choice Vouchers People per Unit (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 1.3,
+      "status": "computed_from_master_table"
+    },
+    "hcv_people_total": {
+      "indicator": "hcv_people_total",
+      "indicator_name": "Housing Choice Vouchers People Total (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 24.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_rent_per_month": {
+      "indicator": "hcv_rent_per_month",
+      "indicator_name": "Housing Choice Vouchers Rent per Month (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 325.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_spending_per_month": {
+      "indicator": "hcv_spending_per_month",
+      "indicator_name": "Housing Choice Vouchers Spending per Month (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 590.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_hh_income": {
+      "indicator": "hcv_hh_income",
+      "indicator_name": "Housing Choice Vouchers Household Income (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 12871.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_person_income": {
+      "indicator": "hcv_person_income",
+      "indicator_name": "Housing Choice Vouchers Person Income (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 5370.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_pct_lt80_median": {
+      "indicator": "hcv_pct_lt80_median",
+      "indicator_name": "Housing Choice Vouchers Share Below 80 Percent Median (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 98.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_pct_lt50_median": {
+      "indicator": "hcv_pct_lt50_median",
+      "indicator_name": "Housing Choice Vouchers Share Below 50 Percent Median (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 88.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_pct_lt30_median": {
+      "indicator": "hcv_pct_lt30_median",
+      "indicator_name": "Housing Choice Vouchers Share Below 30 Percent Median (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 61.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_months_waiting": {
+      "indicator": "hcv_months_waiting",
+      "indicator_name": "Housing Choice Vouchers Months Waiting (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": -1.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_months_from_movein": {
+      "indicator": "hcv_months_from_movein",
+      "indicator_name": "Housing Choice Vouchers Months From Move-In (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 64.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_pct_utility_allow": {
+      "indicator": "hcv_pct_utility_allow",
+      "indicator_name": "Housing Choice Vouchers Utility Allowance Share (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 49.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_ave_util_allow": {
+      "indicator": "hcv_ave_util_allow",
+      "indicator_name": "Housing Choice Vouchers Average Utility Allowance (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 89.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_pct_bed1": {
+      "indicator": "hcv_pct_bed1",
+      "indicator_name": "Housing Choice Vouchers Bedroom 1 Share (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": -1.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_pct_bed2": {
+      "indicator": "hcv_pct_bed2",
+      "indicator_name": "Housing Choice Vouchers Bedroom 2 Share (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 7.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_pct_bed3": {
+      "indicator": "hcv_pct_bed3",
+      "indicator_name": "Housing Choice Vouchers Bedroom 3 Share (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 2.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_pct_overhoused": {
+      "indicator": "hcv_pct_overhoused",
+      "indicator_name": "Housing Choice Vouchers Overhoused Share (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "Census Tract",
+      "non_missing_n": 70105,
+      "national_median": 4.0,
+      "status": "computed_from_master_table"
+    }
+  },
+  "cbsa": {
+    "hcv_25": {
+      "indicator": "hcv_25",
+      "indicator_name": "Housing Choice Vouchers (HUD, 2025)",
+      "source_dataset": "Housing Choice Vouchers (HUD, 2025)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 546.0,
+      "status": "computed_from_master_table"
+    },
+    "recap_share": {
+      "indicator": "recap_share",
+      "indicator_name": "Share of HCV Households in Ethnically Concentrated Areas of Poverty (R/ECAPs) Tracts",
+      "source_dataset": "ACS 2020\u20132024",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 0.0,
+      "status": "computed_from_master_table"
+    },
+    "rcaa_share": {
+      "indicator": "rcaa_share",
+      "indicator_name": "Share of HCV Households in Racially Concentrated Areas of Affluence (RCAAs) Tracts",
+      "source_dataset": "ACS2020-2024",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 0.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_coi_idx": {
+      "indicator": "hcv_coi_idx",
+      "indicator_name": "HCV-Weighted Child Opportunoty Index",
+      "source_dataset": "COI 3.0 (2023), HCV (2025)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 921,
+      "national_median": 31.725641,
+      "status": "computed_from_master_table"
+    },
+    "renter_coi_idx": {
+      "indicator": "renter_coi_idx",
+      "indicator_name": "Renter-Weighted Child Opportunoty Index",
+      "source_dataset": "COI 3.0 (2023), HUD CHAS (2018-2022)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 925,
+      "national_median": 36.887207,
+      "status": "computed_from_master_table"
+    },
+    "hcv_coi_edu": {
+      "indicator": "hcv_coi_edu",
+      "indicator_name": "HCV-Weighted Child Opportunoty Index \u2013 Education Domain",
+      "source_dataset": "COI 3.0 (2023), HCV (2026)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 921,
+      "national_median": 36.88668,
+      "status": "computed_from_master_table"
+    },
+    "renter_coi_edu": {
+      "indicator": "renter_coi_edu",
+      "indicator_name": "Renter-Weighted Child Opportunoty Index \u2013 Education Domain",
+      "source_dataset": "COI 3.0 (2023), HUD CHAS (2018-2022)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 925,
+      "national_median": 42.393145,
+      "status": "computed_from_master_table"
+    },
+    "hcv_coi_health_env": {
+      "indicator": "hcv_coi_health_env",
+      "indicator_name": "HCV-Weighted Child Opportunoty Index \u2013 Health & Environment Domain",
+      "source_dataset": "COI 3.0 (2023), HCV (2025)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 921,
+      "national_median": 40.022222,
+      "status": "computed_from_master_table"
+    },
+    "renter_coi_health_env": {
+      "indicator": "renter_coi_health_env",
+      "indicator_name": "Renter-Weighted Child Opportunoty Index \u2013 Health & Environment Domain",
+      "source_dataset": "COI 3.0 (2023), HUD CHAS (2018-2022)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 925,
+      "national_median": 39.603974,
+      "status": "computed_from_master_table"
+    },
+    "hcv_coi_eco": {
+      "indicator": "hcv_coi_eco",
+      "indicator_name": "HCV-Weighted Child Opportunoty Index \u2013 Social & Economic Domain",
+      "source_dataset": "COI 3.0 (2023), HCV (2025)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 921,
+      "national_median": 29.433099,
+      "status": "computed_from_master_table"
+    },
+    "renter_coi_eco": {
+      "indicator": "renter_coi_eco",
+      "indicator_name": "Renter-Weighted Child Opportunoty Index \u2013 Social & Economic Domain",
+      "source_dataset": "COI 3.0 (2023), HUD CHAS (2018-2022)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 925,
+      "national_median": 35.341656,
+      "status": "computed_from_master_table"
+    },
+    "pvn_30": {
+      "indicator": "pvn_30",
+      "indicator_name": "Income-based Potential Voucher Need-30%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "source_dataset": "HUD CHAS (2018-2022)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 2110.0,
+      "status": "computed_from_master_table"
+    },
+    "pvn_50": {
+      "indicator": "pvn_50",
+      "indicator_name": "Income-based Potential Voucher Need-50%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "source_dataset": "HUD CHAS (2018-2022)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 3760.0,
+      "status": "computed_from_master_table"
+    },
+    "pvn_80": {
+      "indicator": "pvn_80",
+      "indicator_name": "Income-based Potential Voucher Need-80%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "source_dataset": "HUD CHAS (2018-2022)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 5634.0,
+      "status": "computed_from_master_table"
+    },
+    "pvn_100": {
+      "indicator": "pvn_100",
+      "indicator_name": "Income-based Potential Voucher Need-100%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "source_dataset": "HUD CHAS (2018-2022)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 6584.0,
+      "status": "computed_from_master_table"
+    },
+    "pvn_all": {
+      "indicator": "pvn_all",
+      "indicator_name": "Income-based Potential Voucher Need-All Income Bands (HUD CHAS Data, ACS2018-2022)",
+      "source_dataset": "HUD CHAS (2018-2022)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 8870.0,
+      "status": "computed_from_master_table"
+    },
+    "vng_30": {
+      "indicator": "vng_30",
+      "indicator_name": "Income-based Voucher Need Gap -30%HAMFI",
+      "source_dataset": "HUD CHAS (2018-2022), HCV (2025)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 1552.0,
+      "status": "computed_from_master_table"
+    },
+    "vng_50": {
+      "indicator": "vng_50",
+      "indicator_name": "Income-based Voucher Need Gap -50%HAMFI",
+      "source_dataset": "HUD CHAS (2018-2022), HCV (2025)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 3288.0,
+      "status": "computed_from_master_table"
+    },
+    "vng_80": {
+      "indicator": "vng_80",
+      "indicator_name": "Income-based Voucher Need Gap -80%HAMFI",
+      "source_dataset": "HUD CHAS (2018-2022), HCV (2025)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 5159.0,
+      "status": "computed_from_master_table"
+    },
+    "vng_100": {
+      "indicator": "vng_100",
+      "indicator_name": "Income-based Voucher Need Gap -100%HAMFI",
+      "source_dataset": "HUD CHAS (2018-2022), HCV (2025)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 6119.0,
+      "status": "computed_from_master_table"
+    },
+    "vng_all": {
+      "indicator": "vng_all",
+      "indicator_name": "Income-based Voucher Need Gap -All Income Bands",
+      "source_dataset": "HUD CHAS (2018-2022), HCV (2025)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 8214.0,
+      "status": "computed_from_master_table"
+    },
+    "em_30": {
+      "indicator": "em_30",
+      "indicator_name": "Eligibility Mismatch-30%HAMFI",
+      "source_dataset": "HUD CHAS (2018-2022), HCV (2025)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 1460.0,
+      "status": "computed_from_master_table"
+    },
+    "em_50": {
+      "indicator": "em_50",
+      "indicator_name": "Eligibility Mismatch-50%HAMFI",
+      "source_dataset": "HUD CHAS (2018-2022), HCV (2025)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 2890.0,
+      "status": "computed_from_master_table"
+    },
+    "em_80": {
+      "indicator": "em_80",
+      "indicator_name": "Eligibility Mismatch-80%HAMFI",
+      "source_dataset": "HUD CHAS (2018-2022), HCV (2025)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 4644.0,
+      "status": "computed_from_master_table"
+    },
+    "em_all": {
+      "indicator": "em_all",
+      "indicator_name": "Eligibility Mismatch-All Income Bands",
+      "source_dataset": "HUD CHAS (2018-2022), HCV (2025)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 7759.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_median_gross_rent": {
+      "indicator": "hcv_median_gross_rent",
+      "indicator_name": "HCV tract-Average Median Gross Rent (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 950.511226,
+      "status": "computed_from_master_table"
+    },
+    "median_gross_rent": {
+      "indicator": "median_gross_rent",
+      "indicator_name": "Median Gross Rent (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "CBSAs",
+      "non_missing_n": 935,
+      "national_median": 974.0,
+      "status": "computed_from_master_table"
+    },
+    "aqv_30": {
+      "indicator": "aqv_30",
+      "indicator_name": "Number of Affordable, Qualified and Vacant Units for Rent-30%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "source_dataset": "HUD CHAS Data (2018-2022)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 88.0,
+      "status": "computed_from_master_table"
+    },
+    "aqv_50": {
+      "indicator": "aqv_50",
+      "indicator_name": "Number of Affordable, Qualified and Vacant Units for Rent-50%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "source_dataset": "HUD CHAS Data (2018-2022)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 297.0,
+      "status": "computed_from_master_table"
+    },
+    "aqv_80": {
+      "indicator": "aqv_80",
+      "indicator_name": "Number of Affordable, Qualified and Vacant Units for Rent-80%HAMFI (HUD CHAS Data, ACS2018-2022)",
+      "source_dataset": "HUD CHAS Data (2018-2022)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 435.0,
+      "status": "computed_from_master_table"
+    },
+    "aqv_all": {
+      "indicator": "aqv_all",
+      "indicator_name": "Number of Affordable, Qualified and Vacant Units for Rent-All Income Bands (HUD CHAS Data, ACS2018-2022)",
+      "source_dataset": "HUD CHAS Data (2018-2022)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 500.0,
+      "status": "computed_from_master_table"
+    },
+    "rent_burdened_share": {
+      "indicator": "rent_burdened_share",
+      "indicator_name": "Rent Burdened Households (%) (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 0.424454,
+      "status": "computed_from_master_table"
+    },
+    "severe_rent_burdened_share": {
+      "indicator": "severe_rent_burdened_share",
+      "indicator_name": "Severely Rent Burdened Households (%) (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 0.207125,
+      "status": "computed_from_master_table"
+    },
+    "hcv_median_hh_income": {
+      "indicator": "hcv_median_hh_income",
+      "indicator_name": "HCV tract-Average Median Household Income (ACS, 2020-2024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "tract input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 57251.02073,
+      "status": "computed_from_master_table"
+    },
+    "median_hh_income": {
+      "indicator": "median_hh_income",
+      "indicator_name": "Median Household Income (ACS, 2020-2024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "CBSAs",
+      "non_missing_n": 935,
+      "national_median": 66806.0,
+      "status": "computed_from_master_table"
+    },
+    "poverty_rate": {
+      "indicator": "poverty_rate",
+      "indicator_name": "Poverty Rate (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 0.136085,
+      "status": "computed_from_master_table"
+    },
+    "hcv_high_poverty_rate_share": {
+      "indicator": "hcv_high_poverty_rate_share",
+      "indicator_name": "HCV tract-Share of High Poverty Rate(%) Tracts (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 0.238095,
+      "status": "computed_from_master_table"
+    },
+    "high_poverty_rate_share": {
+      "indicator": "high_poverty_rate_share",
+      "indicator_name": "Share of High Poverty Rate(20%) Tracts (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 0.210526,
+      "status": "computed_from_master_table"
+    },
+    "minority_share": {
+      "indicator": "minority_share",
+      "indicator_name": "Minority Share (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 0.24605,
+      "status": "computed_from_master_table"
+    },
+    "pop_65plus_share": {
+      "indicator": "pop_65plus_share",
+      "indicator_name": "Population Age 65+ (%) (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 0.186712,
+      "status": "computed_from_master_table"
+    },
+    "ba_plus_share": {
+      "indicator": "ba_plus_share",
+      "indicator_name": "Educational Attainment: Bachelor's Degree or Higher (%) (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 0.250967,
+      "status": "computed_from_master_table"
+    },
+    "unemployment_rate": {
+      "indicator": "unemployment_rate",
+      "indicator_name": "Unemployment Rate (ACS, 2020\u20132024)",
+      "source_dataset": "ACS (2020\u20132024)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 935,
+      "national_median": 0.047816,
+      "status": "computed_from_master_table"
+    },
+    "hcv_occupied": {
+      "indicator": "hcv_occupied",
+      "indicator_name": "Housing Choice Vouchers Occupied Units(HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 401.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_pct_occupied": {
+      "indicator": "hcv_pct_occupied",
+      "indicator_name": "Housing Choice Vouchers Percent Occupied (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 79.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_reported": {
+      "indicator": "hcv_reported",
+      "indicator_name": "Housing Choice Vouchers Reported Count (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 415.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_pct_reported": {
+      "indicator": "hcv_pct_reported",
+      "indicator_name": "Housing Choice Vouchers Percent Reported (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 100.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_months_since_report": {
+      "indicator": "hcv_months_since_report",
+      "indicator_name": "Housing Choice Vouchers Months Since Report (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 5.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_pct_movein": {
+      "indicator": "hcv_pct_movein",
+      "indicator_name": "Housing Choice Vouchers Percent Moved In Past Year (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 8.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_people_per_unit": {
+      "indicator": "hcv_people_per_unit",
+      "indicator_name": "Housing Choice Vouchers People per Unit (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 1.9,
+      "status": "computed_from_master_table"
+    },
+    "hcv_people_total": {
+      "indicator": "hcv_people_total",
+      "indicator_name": "Housing Choice Vouchers People Total (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 796.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_rent_per_month": {
+      "indicator": "hcv_rent_per_month",
+      "indicator_name": "Housing Choice Vouchers Rent per Month (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 410.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_spending_per_month": {
+      "indicator": "hcv_spending_per_month",
+      "indicator_name": "Housing Choice Vouchers Spending per Month (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 724.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_hh_income": {
+      "indicator": "hcv_hh_income",
+      "indicator_name": "Housing Choice Vouchers Household Income (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 16271.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_person_income": {
+      "indicator": "hcv_person_income",
+      "indicator_name": "Housing Choice Vouchers Person Income (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 8409.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_pct_lt80_median": {
+      "indicator": "hcv_pct_lt80_median",
+      "indicator_name": "Housing Choice Vouchers Share Below 80 Percent Median (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 100.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_pct_lt50_median": {
+      "indicator": "hcv_pct_lt50_median",
+      "indicator_name": "Housing Choice Vouchers Share Below 50 Percent Median (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 97.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_pct_lt30_median": {
+      "indicator": "hcv_pct_lt30_median",
+      "indicator_name": "Housing Choice Vouchers Share Below 30 Percent Median (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 75.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_months_waiting": {
+      "indicator": "hcv_months_waiting",
+      "indicator_name": "Housing Choice Vouchers Months Waiting (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 15.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_months_from_movein": {
+      "indicator": "hcv_months_from_movein",
+      "indicator_name": "Housing Choice Vouchers Months From Move-In (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 92.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_pct_utility_allow": {
+      "indicator": "hcv_pct_utility_allow",
+      "indicator_name": "Housing Choice Vouchers Utility Allowance Share (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 92.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_ave_util_allow": {
+      "indicator": "hcv_ave_util_allow",
+      "indicator_name": "Housing Choice Vouchers Average Utility Allowance (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 155.0,
+      "status": "computed_from_master_table"
+    },
+    "hcv_pct_overhoused": {
+      "indicator": "hcv_pct_overhoused",
+      "indicator_name": "Housing Choice Vouchers Overhoused Share (HUD, 2025)",
+      "source_dataset": "Assisted Housing: National and Local (HUD, 2025)",
+      "level_label": "county input -> CBSAs summary",
+      "non_missing_n": 931,
+      "national_median": 27.0,
+      "status": "computed_from_master_table"
+    }
+  }
+}

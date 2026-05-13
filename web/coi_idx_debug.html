@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COI Debug Map</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"
+    />
+    <link rel="stylesheet" href="./coi_idx_debug.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="panel">
+        <h1>COI Debug Map</h1>
+        <p>
+          Single-variable tract visualization for <code>coi_idx</code>. This page
+          is intentionally minimal so we can verify tile loading and polygon
+          rendering without the full UI.
+        </p>
+
+        <div class="stat-block">
+          <div class="stat-label">Map status</div>
+          <div id="map-status" class="stat-value">booting</div>
+        </div>
+
+        <div class="stat-block">
+          <div class="stat-label">Visible features</div>
+          <div id="feature-count" class="stat-value">0</div>
+        </div>
+
+        <div class="stat-block">
+          <div class="stat-label">Clicked tract</div>
+          <div id="clicked-tract" class="stat-value">none</div>
+        </div>
+
+        <div class="legend">
+          <div class="legend-row"><span class="swatch s1"></span><span>&lt; 20</span></div>
+          <div class="legend-row"><span class="swatch s2"></span><span>20 - 40</span></div>
+          <div class="legend-row"><span class="swatch s3"></span><span>40 - 60</span></div>
+          <div class="legend-row"><span class="swatch s4"></span><span>60 - 80</span></div>
+          <div class="legend-row"><span class="swatch s5"></span><span>&gt;= 80</span></div>
+          <div class="legend-row"><span class="swatch s0"></span><span>No data</span></div>
+        </div>
+
+        <div class="log-wrap">
+          <div class="stat-label">Debug log</div>
+          <pre id="debug-log"></pre>
+        </div>
+      </aside>
+
+      <main id="map"></main>
+    </div>
+
+    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+    <script src="./coi_idx_debug.js"></script>
+  </body>
+</html>
